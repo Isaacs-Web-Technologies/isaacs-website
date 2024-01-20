@@ -1,0 +1,41 @@
+/* global.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada:wght@400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0 auto;
+  
+}
+body {
+  /* @apply leading-[normal] m-0; */
+  font-family: 'Nunito', sans-serif
+  
+}
+.row {
+  display: flex;
+  flex-wrap: wrap; /* Allow the items to wrap to the next line */
+}
+
+.column {
+  flex: 1; /* Equal width for both columns, adjust as needed */
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column; /* Stack columns vertically on smaller screens */
+  }
+
+  .column {
+    width: 100%;
+    align-items: center;  /* Full width for each column on smaller screens */
+  }
+}
+
+.hamburger{
+  background-color: rgb(67, 52, 67);
+  z-index: 1;
+}
