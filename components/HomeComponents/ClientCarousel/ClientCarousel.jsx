@@ -4,7 +4,7 @@
 import * as React from "react";
 import Image from "next/image";
 
-function MyComponent(props) {
+function ClientCarousel(props) {
   return (
     <div className="items-center bg-white flex flex-col pt-12 px-16 max-md:px-5">
       <span className="items-start flex w-full max-w-[1480px] flex-col mt-8 mx-auto pt-2.5 pb-4 px-2.5 max-md:max-w-full">
@@ -73,3 +73,4 @@ function MyComponent(props) {
     </div>
   );
 }
+export default ClientCarousel

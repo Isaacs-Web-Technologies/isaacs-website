@@ -4,7 +4,7 @@
 import * as React from "react";
 import Image from "next/image";
 
-function UpdatedComponent(props) {
+function Smallpple(props) {
   return (
     <form className="justify-center px-20 max-md:px-5">
       <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
@@ -52,3 +52,4 @@ function UpdatedComponent(props) {
     </form>
   );
 }
+export default Smallpple

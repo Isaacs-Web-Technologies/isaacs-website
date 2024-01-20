@@ -4,7 +4,7 @@
 import * as React from "react";
 import Image from "next/image";
 
-function MyComponent(props) {
+function Purpleseo(props) {
   return (
     <div className="items-stretch bg-fuchsia-700 flex w-full max-w-[1140px] flex-col justify-center mx-auto px-12 py-12 max-md:max-w-full max-md:px-5">
       <span className="flex justify-between gap-5 pl-2.5 pr-1.5 items-start max-md:max-w-full max-md:flex-wrap">
@@ -35,3 +35,4 @@ function MyComponent(props) {
     </div>
   );
 }
+export default Purpleseo

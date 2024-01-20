@@ -3,7 +3,7 @@
  */
 import React from "react";
 
-function MyUpdatedComponent(props) {
+function RollinNos(props) {
   return (
     <div className="self-stretch w-auto max-w-[1826px] mt-10 mx-10 max-md:max-w-full">
       <header className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
@@ -92,3 +92,4 @@ function MyUpdatedComponent(props) {
     </div>
   );
 }
+export default RollinNos

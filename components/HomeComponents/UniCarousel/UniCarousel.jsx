@@ -4,7 +4,7 @@
 import React from "react";
 import Image from "next/image";
 
-function ImageGallery(props) {
+function UniCarousel(props) {
   return (
     <form>
       <div className="header">
@@ -60,3 +60,4 @@ function ImageGallery(props) {
     </form>
   );
 }
+export default UniCarousel

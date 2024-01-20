@@ -1,0 +1,112 @@
+<html lang="en"><head>
+    <title>#136552 Preview</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="referrer" content="never">
+    <meta name="robots" content="noindex,nofollow">
+    <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8;">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <script type="text/javascript" src="/themes/TemplateStore/js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/themes/TemplateStore/css/fontello-embedded.css">
+    <script charset="utf-8">
+    var min_height = 600;
+    $(function () {resizeFrame();});
+    function resizeFrame() {
+        if (1 == 0)
+        return false;
+        var main_iframe = $('#preview');
+        var height = $(window).height() - $('#preview-bar:visible').outerHeight();
+        if (height < min_height)
+            height = min_height;
+            $('#preview').height(height);
+            $('#iframelive').height(height);
+            if ($(window).width() < 1400)
+            $('#min-hide-this').hide();
+            else
+            $('#min-hide-this').show();
+            }
+            $(window).resize(function () {
+                resizeFrame();
+            }).load(function () {
+                resizeFrame();
+            });
+            $(document).ready(function(){
+                $('#close').click(function(e){
+                    e.preventDefault();
+                    $('#preview-bar').hide();
+                    var newheight = $(window).height()
+                    $('#preview').height(newheight);
+                });
+            })
+    </script>
+    <script>
+    $(function () {
+    $('#frame_controls .device_item').click(function(){
+        $(this).siblings().removeClass('device_current');
+        $(this).addClass('device_current');
+        var className = $(this).data('device');
+        $('#showframe').attr('class', className);
+        return false;
+    });
+    });
+    </script>
+    <style>
+    @charset "UTF-8";@font-face{font-family:"Material Design Icons";src:url(/fonts/materialdesignicons-webfont.eot?v=1.4.57);src:url(/fonts/materialdesignicons-webfont.eot?#iefix&v=1.4.57) format("embedded-opentype"),url(/fonts/materialdesignicons-webfont.woff2?v=1.4.57) format("woff2"),url(/fonts/materialdesignicons-webfont.woff?v=1.4.57) format("woff"),url(/fonts/materialdesignicons-webfont.ttf?v=1.4.57) format("truetype"),url(/fonts/materialdesignicons-webfont.svg?v=1.4.57#materialdesigniconsregular) format("svg");font-weight:400;font-style:normal}body{background:#cfd8dc;color:#8C8C8C;font:300 15px/23px Roboto,sans-serif;-webkit-text-size-adjust:none;margin:0;overflow:hidden;width:100%;}ul{padding:0;margin:0;}a{color:#FFF;}#preview{width:100%;}#preview-bar{background:#1e5799;background:-moz-linear-gradient(left,#1e5799 0%,#458eea 50%,#2e87cf 100%);background:-webkit-linear-gradient(left,#1e5799 0%,#458eea 50%,#2e87cf 100%);background:linear-gradient(to right,#1e5799 0%,#458eea 50%,#2e87cf 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799',endColorstr='#2e87cf',GradientType=1);min-width:1170px;}#bar-inner{max-width:1170px;margin:0 auto;font-size:20px;overflow:hidden;padding:0px;color:#ffffff;}#bar-inner li{list-style:none;height:66px;line-height:66px;}#bar-inner li .old-price{color:#ff0000;}.block{float:left;padding-left:40px;}.block.tm-logo{border:none;margin:0px;padding:0px;}#frame_controls.block.info{min-width:auto;padding-left:40px;}.block.info{font-family:'Roboto',sans-serif;font-size:18px;font-weight:500;min-width:330px;text-align:right;padding-left:0px;}#preview-bar .block a.btn2{min-width:164px;}.block.info ul{max-width:136px;}span.old-price{text-decoration:line-through;}.price-cur{color:#c15252;}#fullscreen-preview #preview-wrapper .technical-problems{font-size:24px;color:#808080;font-weight:bold;text-align:center;margin-top:200px;}#fullscreen-preview #preview-wrapper .technical-problems a{color:#808080 !important;text-decoration:underline !important;}#fullscreen-preview #preview-wrapper .technical-problems .problems-message{color:#B6B6B6 !important;}#close{font-size:0;float:right;top:0px;position:relative;}#close:before{content:'\f24c';position:absolute;font-family:"Material Design Icons";font-size:22px;font-weight:400;right:0px;bottom:-20px;}@media only screen and (min-width:768px) and (max-width:995px){#preview-bar{min-width:768px;}#bar-inner{max-width:768px;}.block.info{min-width:280px;}}@media only screen and (min-width:996px) and (max-width:1199px ){#preview-bar{min-width:995px;}#bar-inner{max-width:995px;}.block.info{min-width:360px;}#preview-bar .block a.btn2{margin-left:45px;}}#preview-bar #frame_controls .device_item.device_current,#preview-bar #frame_controls .device_item:hover{color:#2B2B2B}#preview-bar #frame_controls .device_item{display:inline-block;vertical-align:top;font-size:31px;height:35px;line-height:normal;text-align:center;padding:0 5px;color:#fff;margin-top:14px;}.btn2{background:linear-gradient(to bottom,#fff 0,#ededed 100%);color:#000;border:none;text-align:center;box-sizing:border-box;transition:none;text-transform:capitalize;display:inline-block;width:100%;padding:10px;font-size:15px;line-height:25px;font-family:Roboto;height:44px;font-weight:400;border-radius:4px}.btn2:hover{background:linear-gradient(to bottom,#f0efef 0,#dad5d4 100%);color:#000;cursor:pointer}.newlogo{margin-top:0px;}.newbtn{margin-top:-2px;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}#showframe{width:100%;margin:0 auto;}#showframe .hide_wrap{overflow:hidden;}#showframe iframe{width:100%;height:100%;display:block;vertical-align:top;}#showframe.tab_land{margin-top:30px;width:1200px;padding:38px 103px 37px 85px;background:url(/images/tab_landscape.png) 0 0 no-repeat;}#showframe.tab_land .hide_wrap{width:1024px;height:640px;-webkit-border-radius:3px;-ms-border-radius:3px;border-radius:3px;}#showframe.tab_land .hide_wrap iframe{width:1041px !important;height:640px !important;}#showframe.tab_port{margin-top:30px;width:540px;padding:65px 27px 78px 28px;background:url(/images/tab_portrait.png) 0 0 no-repeat;}#showframe.tab_port .hide_wrap{width:480px;height:640px;-webkit-border-radius:3px;-ms-border-radius:3px;border-radius:3px;}#showframe.tab_port .hide_wrap iframe{width:497px !important;height:640px !important;}#showframe.mobile{margin-top:30px;width:360px;padding:92px 19px 102px 19px;background:url(/images/mobile.png) 0 0 no-repeat;}#showframe.mobile .hide_wrap{width:320px;height:520px;-webkit-border-radius:3px;-ms-border-radius:3px;border-radius:3px;}#showframe.mobile .hide_wrap iframe{width:337px !important;height:520px !important;}#frame_controls .device_tablet_landscape:before{transform:rotate(-90deg);-ms-transform:rotate(-90deg);-webkit-transform:rotate(-90deg);}#showframe.mobile_land{margin-top:30px;width:800px;padding:15px 103px 37px 90px;background:url(/images/mobile_landscape.png) 0 0 no-repeat;}#showframe.mobile_land .hide_wrap{width:1024px;height:640px;-webkit-border-radius:3px;-ms-border-radius:3px;border-radius:3px;}#showframe.mobile_land .hide_wrap iframe{width:520px !important;height:320px !important;}#frame_controls .device_mobile_landscape:before{transform:rotate(-90deg);-ms-transform:rotate(-90deg);-webkit-transform:rotate(-90deg);}#frame_controls{display:inline-block;vertical-align:top;height:100%;}#frame_controls .device_item{display:inline-block;vertical-align:top;height:54px;text-align:center;width:54px;margin-left:2px;color:#546171;}#frame_controls .device_item:hover{color:#fff;}#frame_controls .device_current{color:#fff;}.pricer{max-width:100px!important;min-width:100px!important;}a{text-decoration:none;-webkit-transition:color .3s ease,background-color .3s ease;-ms-transition:color .3s ease,background-color .3s ease;transition:color .3s ease,background-color .3s ease;}#showframe{width:100%;margin:0 auto;}#showframe .hide_wrap{overflow:hidden;}#showframe iframe{width:100%;height:100%;display:block;vertical-align:top;}#showframe.tab_land{margin-top:30px;width:1224px;padding:38px 103px 37px 85px;background:url(/images/tab_landscape.png) 0 0 no-repeat;}#showframe.tab_land .hide_wrap{width:1024px;height:640px;-webkit-border-radius:3px;-ms-border-radius:3px;border-radius:3px;}#showframe.tab_land .hide_wrap iframe{width:1041px !important;height:640px !important;}#showframe.tab_port{margin-top:30px;width:540px;padding:65px 27px 78px 28px;background:url(/images/tab_portrait.png) 0 0 no-repeat;}#showframe.tab_port .hide_wrap{width:480px;height:640px;-webkit-border-radius:3px;-ms-border-radius:3px;border-radius:3px;}#showframe.tab_port .hide_wrap iframe{width:497px !important;height:640px !important;}#showframe.mobile{margin-top:30px;width:360px;padding:92px 19px 102px 19px;background:url(/images/mobile.png) 0 0 no-repeat;}#showframe.mobile .hide_wrap{width:320px;height:520px;-webkit-border-radius:3px;-ms-border-radius:3px;border-radius:3px;}#showframe.mobile .hide_wrap iframe{width:337px !important;height:520px !important;}@media (max-width:1529px){body{font-size:13px;line-height:20px;}#header,#header .left_col,#header .right_col,#logo img{height:42px;}#socials .social_item{font-size:14px;width:42px;height:42px;line-height:42px;}#theme_selector .current_theme{width:300px;height:42px;line-height:42px;padding:0 2em 0 1.5em;}#theme_selector .current_theme:after{line-height:42px;right:1em;}#theme_selector .related_themes{width:300px;padding:1.5em;top:42px;}#frame_controls .device_item{height:42px;line-height:42px;padding:0 10px;}#header .right_col > a{height:42px;line-height:42px;padding:0 2em !important;}#header .right_col > a.closeframe{width:42px;}.openframe,.basket{width:42px;height:42px;line-height:42px;font-size:12px;}}@media (max-width:1199px){#frame_controls{display:none;}}@media (max-width:1023px){#header .right_col > a.docs{display:none;}}@media (max-width:959px){#header .right_col > a.customization{display:none;}}@media (max-width:767px){#socials{display:none;}#theme_selector .current_theme{width:270px;padding:0 1.5em 0 1em;}#theme_selector .current_theme:after{right:0.5em;}#theme_selector .related_themes{width:270px;padding:1em;}#header .right_col > a{font-size:10px;}}@media (max-width:639px){#theme_selector .current_theme{display:none;}}@media (max-width:479px){body{font-size:12px;line-height:18px;}#header,#header .left_col,#header .right_col,#logo img{height:36px;}#socials .social_item{font-size:14px;width:36px;height:36px;line-height:36px;}#header .right_col > a{height:36px;line-height:36px;font-size:10px;}#header .right_col > a.purchase{letter-spacing:0;}#header .right_col > a.closeframe{width:36px;}.openframe,.basket{width:36px;height:36px;line-height:36px;}}
+    </style>
+    </head>
+    <body id="fullscreen-preview" inmaintabuse="1">
+    <div id="preview-bar" style="display: none;">
+    <ul id="bar-inner">
+    <li class="tm-logo block"><a href="/" style="display:block;margin-top:-2px;"><img src="/images/Logo_white.png" style="display: inline-block; vertical-align: middle;border:0px;"></a></li>
+    <li class="block inner info">WordPress Themes #136552</li>
+    <li class="block inner info" id="frame_controls"><a href="#" class="icon-desktop device_item device_desktop device_current" data-width="100%" data-device="desktop"></a><a href="#" class="icon-tablet device_item device_tablet_portrait" data-width="480" data-device="tab_port"></a><a href="#" class="icon-mobile device_item device_mobile" data-width="320" data-device="mobile"></a></li>
+    <li class="block inner newbtn">
+    <form name="buy_theme" action="/buy.php" method="post" target="_blank">
+    <input type="hidden" name="item_name" value="WordPress-Theme-136552">
+    <input type="hidden" name="item_price" value="68">
+    <input type="submit" value="Buy Now $68" class="btn2"></form>
+    </li>
+    <a href="#" id="close" class="block">Close</a>
+    </ul>
+    </div>
+    <div id="showframe">
+    <div id="preview-wrapper" class="hide_wrap">
+    <iframe id="preview" frameborder="0" src="https://digo.iamabdus.com/v1.4/" data-src="https://digo.iamabdus.com/v1.4/" style="height: 1305px;"></iframe>
+    </div>
+    </div>
+    
+    <script src="chrome-extension://igkkmokkmlbkkgdnkkancbonkbbmkioc/sm.bundle.js" data-pname="recorder-screenshot-v3" data-asset-path="https://apv3.s3.ap-northeast-2.amazonaws.com"></script><div style="display: none" class="ubey-RecordingScreen-count-down ubey-RecordingScreen-count-down-container">
+              <style>
+                  .ubey-RecordingScreen-count-down-container {
+                      position: fixed;
+                      height: 100vh;
+                      width: 100vw;
+                      top: 0;
+                      left: 0;
+                      z-index: 9999999999999;
+                      background-color: rgba(0, 0, 0, 0.2);
+                  }
+          
+                  .ubey-RecordingScreen-count-down-content {
+                      position: absolute;
+                      display: flex;
+                      top: 50%;
+                      left: 50%;
+                      justify-content: center;
+                      align-items: center;
+                      color: white;
+                      height: 15em;
+                      width: 15em;
+                      transform: translate(-50%, -100%);
+                      background-color: rgba(0, 0, 0, 0.6);
+                      border-radius: 50%;
+                  }
+          
+                  #ubey-RecordingScreen-count-count {
+                      font-size: 14em;
+                      transform: translateY(-2%);
+                  }
+              </style>
+              <div class="ubey-RecordingScreen-count-down-content">
+                  <span id="ubey-RecordingScreen-count-count"></span>
+              </div>
+          </div></body></html>

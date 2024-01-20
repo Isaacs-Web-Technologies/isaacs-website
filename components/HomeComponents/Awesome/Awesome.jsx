@@ -4,7 +4,7 @@
 import * as React from "react";
 import Image from "next/image";
 
-function MyComponent(props) {
+function Awesome(props) {
   return (
     <div>
       <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
@@ -65,3 +65,4 @@ function MyComponent(props) {
     </div>
   );
 }
+export default Awesome

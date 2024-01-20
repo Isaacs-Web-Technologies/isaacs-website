@@ -4,7 +4,7 @@
 import React from "react";
 import Image from "next/image";
 
-function UpdatedComponent(props) {
+function Roi(props) {
   return (
     <form className="items-stretch self-stretch flex flex-col pb-12">
       <header className="justify-center w-full -mr-0.5 mt-5 mb-3.5 pr-20 max-md:max-w-full max-md:ml-0 max-md:px-5">
@@ -104,3 +104,4 @@ function UpdatedComponent(props) {
     </form>
   );
 }
+export default Roi

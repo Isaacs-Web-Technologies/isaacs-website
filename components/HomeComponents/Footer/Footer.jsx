@@ -4,7 +4,7 @@
 import * as React from "react";
 import Image from "next/image";
 
-function MyComponent(props) {
+function Footer(props) {
   return (
     <div className="flex-col overflow-hidden relative flex min-h-[512px] justify-center items-stretch py-3">
       <Image
@@ -116,3 +116,4 @@ function MyComponent(props) {
     </div>
   );
 }
+export default Footer

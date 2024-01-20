@@ -4,7 +4,7 @@
 import React from "react";
 import Image from "next/image";
 
-function DigitalMarketing(props) {
+function StandingDigi(props) {
   return (
     <section className="items-stretch self-stretch flex flex-col pb-12">
       <header className="text-teal-500 text-center text-sm font-extrabold leading-8 uppercase self-center whitespace-nowrap">
@@ -111,4 +111,4 @@ function DigitalMarketing(props) {
   );
 }
 
-export default DigitalMarketing;
+export default StandingDigi;

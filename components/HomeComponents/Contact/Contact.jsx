@@ -4,7 +4,7 @@
 import * as React from "react";
 import Image from "next/image";
 
-function MyComponent(props) {
+function Contact(props) {
   return (
     <div className="items-center bg-slate-50 flex flex-col justify-center pl-5 pr-32 py-12 max-md:pl-5 max-md:pr-20 max-sm:pr-9">
       <div className="max-w-[1794px] w-full mt-16 mb-10 max-md:max-w-full max-md:mt-10">
@@ -53,3 +53,4 @@ function MyComponent(props) {
     </div>
   );
 }
+export default Contact

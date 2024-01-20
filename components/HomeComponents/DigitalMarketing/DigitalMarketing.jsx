@@ -113,3 +113,4 @@ function DigitalMarketing(props) {
     </div>
   );
 }
+export default DigitalMarketing
