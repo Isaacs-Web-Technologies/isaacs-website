@@ -1,6 +1,4 @@
-
-
-
+'use client'
 const Smallpple=() =>{
   return (
     <section className="justify-center px-20 max-md:px-5 pb-12  ">

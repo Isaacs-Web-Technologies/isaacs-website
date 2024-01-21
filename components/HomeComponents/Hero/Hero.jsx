@@ -1,18 +1,17 @@
+'use client'
 
-
-function Hero() {
+const Hero=()=> {
   return (
     <section className="justify-center items-stretch flex flex-col">
       <header className="flex-col overflow-hidden relative flex min-h-[512px] w-full justify-center items-stretch py-3 max-md:max-w-full">
         <img
-          loading="lazy"
           src="/img/herobk.png"
           className="absolute h-full w-full object-cover object-center inset-0"
           alt="Background Image"
         />
          < img
-          loading="lazy"
           src="/img/herobk.png"
+          alt="Background Image"
           className="absolute h-full transform scale-x-[-1] w-full object-cover object-center inset-0"
         />
         <span className="relative flex flex-col max-md:mt-10">
@@ -28,13 +27,11 @@ function Hero() {
                 </div>
                 <button
                   className="text-white text-center text-lg font-bold leading-4 uppercase whitespace-nowrap items-stretch self-center justify-center bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)] mr-auto my-auto px-8 py-5 rounded-3xl max-md:px-5"
-                  aria-label="More About us"
                   role="button"
                 >
                   More About us
                 </button>
                 <img
-                  loading="lazy"
                   src="/img/google rate.png"
                   className="aspect-[4.83] object-contain object-center w-[285px] max-w-full overflow-hidden mt-14 self-start max-md:mt-10"
                   alt="Image 1"
@@ -43,7 +40,6 @@ function Hero() {
               {/* right column */}
                <div className="flex flex-col items-stretch w-[55%] ml-5 max-md:w-full max-md:ml-0">
                 <img
-                  loading="lazy"
                   src="/img/hero-right.png"
                   className="aspect-[1.42] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
                   alt="Image 2"

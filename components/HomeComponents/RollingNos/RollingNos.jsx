@@ -2,7 +2,7 @@
 const RollinNos =()=> {
   return (
  <>
-  <section className="self-stretch   justify-center w-auto px-20 max-md:px-5  mx-10 max-md:max-w-full">
+  <section className="self-stretch justify-center w-auto px-20 max-md:px-5  mx-10 max-md:max-w-full">
       <header className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
         <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
           <header className="text-teal-500 text-lg font-bold leading-7 tracking-normal uppercase pb-16 self-start max-md:max-w-full">
@@ -37,7 +37,7 @@ const RollinNos =()=> {
             <span className="items-stretch bg-white self-stretch flex justify-between gap-5 rounded-3xl max-md:max-w-full max-md:flex-wrap"></span>
           </header>
           {/* 1 */}
-          <a
+          <div
             href="#"
             className="items-stretch mt-20 bg-white flex justify-between gap-5 w-full pb-5 rounded-3xl max-md:max-w-full max-md:flex-wrap max-md:mt-10"
           >
@@ -52,9 +52,9 @@ const RollinNos =()=> {
               Description Lorem ipsum dolor sit <br /> amet, consectetur
               adipiscing elit. <br /> Aliquam .
             </div>
-          </a>
+          </div>
           {/* 2 */}
-          <a
+          <div
             href="#"
             className="items-stretch bg-white flex justify-between gap-5 w-full mt-3 pb-5 rounded-3xl max-md:max-w-full max-md:flex-wrap max-md:mt-10"
           >
@@ -69,9 +69,9 @@ const RollinNos =()=> {
               Description Lorem ipsum dolor sit <br /> amet, consectetur
               adipiscing elit. <br /> Aliquam .
             </div>
-          </a>
+          </div>
           {/* 3 */}
-          <a
+          <div
             href="#"
             className="items-stretch bg-white flex justify-between gap-5 w-full mt-3 pb-5 rounded-3xl max-md:max-w-full max-md:flex-wrap max-md:mt-10"
           >
@@ -86,7 +86,7 @@ const RollinNos =()=> {
               Description Lorem ipsum dolor sit <br /> amet, consectetur
               adipiscing elit. <br /> Aliquam .
             </div>
-          </a>
+          </div>
         </div>
       </header>
     </section>

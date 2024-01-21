@@ -1,3 +1,4 @@
+'use client'
 const Footer=()=> {
   return (
     <div className="flex-col overflow-hidden relative flex min-h-[512px] justify-center items-stretch py-3">

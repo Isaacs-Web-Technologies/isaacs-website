@@ -1,4 +1,4 @@
-
+'use client'
 const StandingDigi=()=> {
     return (
       <div className="justify-end px-20 max-md:px-5">

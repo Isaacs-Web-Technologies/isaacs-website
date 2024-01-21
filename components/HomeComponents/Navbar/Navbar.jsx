@@ -19,9 +19,9 @@ const Navbar =()=> {
           <div className="relative self-stretch flex flex-row gap-5 justify-between w-full items-center my-3">
             <div className="flex flex-row grow-[1.1674179080885916] self-stretch relative max-md:items-center max-md:w-full max-md:mr-auto max-md:my-auto max-sm:justify-start">
               <img
-                loading="lazy"
                 src="/img/Transparent-logo.png"
-                className="aspect-[0.29] object-cover object-center 
+                alt="Logo"
+                className=" object-cover object-center 
                 w-full shrink-0 box-border 
                 overflow-hidden max-h-12 max-w-[91px] max-md:w-auto
                  max-md:grow max-md:mr-auto max-sm:max-h-[42px] max-sm:max-w-[53px] 
@@ -83,27 +83,27 @@ const Navbar =()=> {
 
         <ul className="font-bold  text-2xl list-none">
           <li onClick={handleHamburgerClick} className="py-4 ">
-         <Link className = " text-white no-underline  hover:text-purple-700 cursor-pointer" href= "/">
+         <Link className = "text-white no-underline  hover:text-purple-700 cursor-pointer" href= "/">
          Home
          </Link>
           </li>
           <li onClick={handleHamburgerClick} className="py-5 ">
-         <Link className = " text-white no-underline hover:text-purple-700 cursor-pointer" href= "/">
+         <Link className = "text-white no-underline hover:text-purple-700 cursor-pointer" href= "/">
          Services
          </Link>
           </li>
           <li onClick={handleHamburgerClick} className="py-5 ">
-         <Link className = " text-white no-underline hover:text-purple-700 cursor-pointer" href= "/">
+         <Link className = "text-white no-underline hover:text-purple-700 cursor-pointer" href= "/">
          Project
          </Link>
           </li>
           <li onClick={handleHamburgerClick} className="py-5 ">
-         <Link className = " text-white no-underline hover:text-purple-700 cursor-pointer" href= "/">
+         <Link className = "text-white no-underline hover:text-purple-700 cursor-pointer" href= "/">
          About
          </Link>
           </li>
           <li onClick={handleHamburgerClick} className="py-5 ">
-         <Link className = " text-white no-underline hover:text-purple-700 cursor-pointer" href= "/">
+         <Link className = "text-white no-underline hover:text-purple-700 cursor-pointer" href= "/">
          Contact
          </Link>
           </li>

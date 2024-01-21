@@ -1,5 +1,5 @@
 
-import React from "react";
+'use client'
 import Image from "next/image";
 
 const DigitalMarketing=()=> {
@@ -14,14 +14,14 @@ const DigitalMarketing=()=> {
               aria-label="Significant ROI"
               role="region"
             >
-              <div className="Group1 w-28 h-28 relative">
+              <div className="Group1  relative">
               <Image
                 src="/img/digi1.png"
                 alt="ROI Graphic"
-                layout="responsive"
                 width={20}
                 height={20}
-                className="aspect-square object-contain object-center mt-6 w-[120px] overflow-hidden self-center max-w-full"
+                layout="responsive"
+                className="aspect-square object-contain object-center mt-6 w-[20px] h-[20px] overflow-hidden self-center max-w-full"
               />
               </div>
               <h2 className="text-neutral-700 text-center text-xl font-bold leading-8 self-center whitespace-nowrap mt-14 max-md:mt-10">
@@ -29,7 +29,7 @@ const DigitalMarketing=()=> {
               </h2>
               <div className="text-black text-center text-base leading-6 self-stretch mt-5">
                 Description Lorem ipsum dolor sit <br /> amet, consectetur
-                adipiscing elit. <br /> Aliquam in placerat elit, consequat{" "}
+                adipiscing elit. <br /> Aliquam in placerat elit, consequat
                 <br />
                 tristique
               </div>

@@ -1,3 +1,5 @@
+'use client'
+
 const Purpleseo=()=> {
   return (
     <div className="items-stretch bg-fuchsia-700 flex w-full max-w-[1140px] lg:rounded-xl flex-col justify-center mx-auto px-12 py-12 max-md:max-w-full max-md:px-5">
@@ -12,12 +14,9 @@ const Purpleseo=()=> {
                 
               </span>
               <form className="text-lg font-bold bg-clip-text self-center grow whitespace-nowrap my-auto">
-                <input
-                
-                  layout="fill"
-                  objectFit="cover"
-                  objectPosition="50% 50%"
-                />
+              <input
+                className="w-full h-full object-cover object-center"
+              />
               </form>
             </span>
           </div>
