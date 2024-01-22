@@ -12,7 +12,6 @@ const Navbar =()=> {
   };
  
   return (
-    
       <header 
        className="flex flex-col bg-white  shrink-0 box-border shadow-sm w-full self-stretch items-stretch mx-auto px-5 py-1 justify-between"
         >
