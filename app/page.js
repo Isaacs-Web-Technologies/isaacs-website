@@ -16,7 +16,6 @@ import RollinNos from '../components/HomeComponents/RollingNos/RollingNos'
 export default function Home() {
   return (
     <>
-   
     <Hero /> 
     <DigitalMarketing /> 
     <Smallpple />
