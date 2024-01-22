@@ -1,31 +1,21 @@
 "use client";
-import { useState,useEffect } from "react";
+import { useState } from "react";
 import { AiOutlineMenu,AiOutlineClose } from 'react-icons/ai';
 import Link from "next/link";
 
 
 const Navbar =()=> {
   const [isHamburgerActive, setIsHamburgerActive] = useState(false);
-  const [isScrolled,setIsScrolled] = useState(false);
 
   const handleHamburgerClick = () => {
     setIsHamburgerActive(!isHamburgerActive);
   };
-  useEffect(() =>{
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 0);
-    }
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll",handleScroll);
-    };
-  }, []);
+ 
   return (
     
       <header 
-      className={` flex flex-col bg-white z-[${setIsScrolled ? 2 : 0}]  shrink-0 box-border   shadow-sm w-full self-stretch  items-stretch mx-auto px-5 py-1`}
-      >
+       className="flex flex-col bg-white  shrink-0 box-border shadow-sm w-full self-stretch items-stretch mx-auto px-5 py-1 justify-between"
+        >
         <nav className="flex flex-row w-full max-md:justify-start max-md:items-start max-sm:items-center">
           <div className="relative self-stretch flex flex-row gap-5 justify-between w-full items-center my-3">
             <div className="flex flex-row grow-[1.1674179080885916] self-stretch relative max-md:items-center max-md:w-full max-md:mr-auto max-md:my-auto max-sm:justify-start">
@@ -41,38 +31,40 @@ const Navbar =()=> {
               />
               <div className="relative flex flex-col grow-[3.1608208817763215] mt-4 max-md:hidden max-md:flex-row max-md:mr-auto max-sm:hidden">
                 <div className="relative self-stretch flex flex-row gap-4 justify-start max-md:justify-center">
-                  <Link className="relative shrink-0 box-border" href="/">
+                  <a className="relative" href="/">
                     Home
-                  </Link>
-                  <Link className="relative shrink-0 box-border" href="/Services">
+                  </a>
+                  <a className="" href="/Services">
                     Services
                     <br />
                     <br />
-                  </Link>
-                  <Link className="relative shrink-0 box-border ml-0.5 max-md:mx-0.5" href="/Projects">
+                  </a>
+                  <a className=" ml-0.5 max-md:mx-0.5" href="/">
                     Projects
                     <br />
                     <br />
-                  </Link>
-                  <Link className="relative shrink-0 box-border ml-3 max-md:mx-2.5" href="/About">
+                  </a>
+                  <a
+                   className=" ml-3 max-md:mx-2.5" href="/">
                     About
                     <br />
                     <br />
-                  </Link>
-                  <Link className="relative shrink-0 box-border ml-3 max-md:mx-2.5" href="/Contact">
+                  </a>
+                  <a 
+                  className=" ml-3 max-md:mx-2.5" href="/">
                     Contact
                     <br />
                     <br />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="relative flex flex-row grow-0 w-auto ml-auto mt-px max-md:hidden max-sm:hidden">
               <div className="relative flex flex-row gap-4 ml-4">
                 <button className="text-white text-center text-lg font-bold leading-4 uppercase whitespace-nowrap items-stretch self-center justify-center bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)] my-auto px-8 py-4 rounded-3xl max-md:px-5">
-                  <Link href= "/Contact">
+                  <a href= "/">
                   Get a Quote
-                  </Link>
+                  </a>
                   
                 </button>
               </div>

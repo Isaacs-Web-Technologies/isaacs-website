@@ -14,7 +14,7 @@ const Hero=()=> {
           alt="Background Image"
           className="absolute h-full transform scale-x-[-1] w-full object-cover object-center inset-0"
         />
-        <span className="relative   flex flex-col max-md:mt-10">
+        <span className="relative  flex flex-col max-md:mt-10">
           <div className="max-w-full justify-center relative w-[1140px] mx-auto px-3 py-6 max-md:pl-5">
             <div className="gap-5 flex max-md:flex-col-reverse max-md:items-stretch max-md:gap-0">
               {/* left column */}

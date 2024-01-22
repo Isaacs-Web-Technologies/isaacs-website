@@ -43,7 +43,7 @@ const UniCarousel=()=> {
         <a hreg="/">
           <img
             loading="lazy"
-            src="u-uni-logo.png"
+            src="uni-logo.png"
             className="aspect-[0.89] object-contain object-center w-[133px] overflow-hidden shrink-0 max-w-full"
             alt="img 5"
           />
