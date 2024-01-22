@@ -1,8 +1,7 @@
 'use client'
 import StandingDigi from '../../components/HomeComponents/StandingDigi/StandingDigi'
-import React from 'react'
-import ServicesGrid from '../../components/ServiceComponents/servicesGrid'
-import Meeting from '../../components/ServiceComponents/meeting'
+import ServicesGrid from '../../components/ServiceComponents/ServicesGrid'
+import Meeting from '../../components/ServiceComponents/Meeting'
 
 const page = () => {
   return (
