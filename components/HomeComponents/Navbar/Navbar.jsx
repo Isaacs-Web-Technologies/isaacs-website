@@ -24,7 +24,7 @@ const Navbar =()=> {
   return (
     
       <header 
-      className={`fixed flex flex-col bg-white z-[${setIsScrolled ? 2 : 0}] mb-[10vh] shrink-0 box-border   shadow-sm w-full self-stretch  items-stretch mx-auto px-5 py-1`}
+      className={` flex flex-col bg-white z-[${setIsScrolled ? 2 : 0}]  shrink-0 box-border   shadow-sm w-full self-stretch  items-stretch mx-auto px-5 py-1`}
       >
         <nav className="flex flex-row w-full max-md:justify-start max-md:items-start max-sm:items-center">
           <div className="relative self-stretch flex flex-row gap-5 justify-between w-full items-center my-3">
