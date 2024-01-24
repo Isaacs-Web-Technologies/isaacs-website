@@ -38,3 +38,36 @@ body {
   background-color: rgb(67, 52, 67);
   z-index: 1;
 }
+.animate {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #2196f3;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0; /* initially set to transparent */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.scroll-to-top.visible {
+  opacity: 1; /* visible when isScrolled is true */
+}
+
+.scroll-to-top:hover {
+  background-color: #0e70a4;
+}

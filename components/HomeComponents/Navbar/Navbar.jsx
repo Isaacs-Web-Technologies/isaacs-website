@@ -44,7 +44,7 @@ const Navbar =()=> {
                     <br />
                   </a>
                   <a
-                   className=" ml-3 max-md:mx-2.5" href="/">
+                   className=" ml-3 max-md:mx-2.5" href="/About">
                     About
                     <br />
                     <br />
@@ -105,7 +105,7 @@ const Navbar =()=> {
          </Link>
           </li>
           <li onClick={handleHamburgerClick} className="py-5 ">
-         <Link className = "text-white no-underline hover:text-purple-700 cursor-pointer" href= "/">
+         <Link className = "text-white no-underline hover:text-purple-700 cursor-pointer" href= "/About">
          About
          </Link>
           </li>

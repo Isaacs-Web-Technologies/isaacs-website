@@ -1,7 +1,19 @@
 'use client'
+// import ScrollEvent from '/hooks/ScrollEvent';
+
 const Footer=()=> {
+  // const { isScrolled, scrollToTop } = ScrollEvent();
   return (
     <div className="flex-col overflow-hidden relative flex min-h-[512px] justify-center items-stretch py-3">
+             {/* Scroll to top button */}
+             {/* {isScrolled && (
+        <button
+          className={`scroll-to-top ${isScrolled ? 'visible' : 'hidden'}`}
+          onClick={scrollToTop}
+        >
+          Scroll to Top
+        </button>
+      )} */}
       <img
         loading="lazy"
         src="/img/herobk.png"
@@ -13,6 +25,7 @@ const Footer=()=> {
           alt="background-image"
           className="absolute h-full transform scale-x-[-1] w-full object-cover object-center inset-0"
         />
+        
       <div className="flex-col relative overflow-hidden flex min-h-[512px] w-full justify-center items-stretch py-3 max-md:max-w-full">
         <span className="relative flex flex-col max-md:mt-10">
           <div className="max-w-full justify-center relative w-[1140px] mx-auto px-3 py-6 max-md:pl-5">
