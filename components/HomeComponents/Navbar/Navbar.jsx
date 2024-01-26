@@ -50,7 +50,7 @@ const Navbar =()=> {
                     <br />
                   </a>
                   <a 
-                  className=" ml-3 max-md:mx-2.5" href="/">
+                  className=" ml-3 max-md:mx-2.5" href="/Contact">
                     Contact
                     <br />
                     <br />
