@@ -38,7 +38,7 @@ const Navbar =()=> {
                     <br />
                     <br />
                   </a>
-                  <a className=" ml-0.5 max-md:mx-0.5" href="/">
+                  <a className=" ml-0.5 max-md:mx-0.5" href="/Projects">
                     Projects
                     <br />
                     <br />
