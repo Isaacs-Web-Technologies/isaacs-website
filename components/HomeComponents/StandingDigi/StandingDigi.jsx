@@ -1,9 +1,24 @@
 'use client'
+import useIntersectionObserver from '../../../hooks/useIntersectionObserver';
+import { useRef,useState } from 'react';
+
+
 const StandingDigi=()=> {
+  const cardRef = useRef(null);
+  const [hasAnimated, setHasAnimated] = useState(false);
+
+  const handleAnimation = () => {
+    if (!hasAnimated) {
+      cardRef.current.classList.add('slideInLeft','slideInUp');
+      setHasAnimated(true);
+    }
+  };
+
+  useIntersectionObserver(cardRef, handleAnimation);
     return (
       <div className="justify-end px-20 max-md:px-5">
         <header className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-          <section className="flex flex-col items-stretch w-[51%] max-md:w-full max-md:ml-0">
+          <section className="slideInLeft flex flex-col items-stretch w-[51%] max-md:w-full max-md:ml-0">
             <img
               loading="lazy"
               src="/img/standing-digi.png"
@@ -11,7 +26,7 @@ const StandingDigi=()=> {
               role="img"
             />
           </section>
-          <section className="flex flex-col items-stretch w-[24%] ml-5 max-md:w-full max-md:ml-0">
+          <section className="slideInUp flex flex-col items-stretch w-[24%] ml-5 max-md:w-full max-md:ml-0">
             <div className="flex flex-col items-stretch my-auto max-md:mt-10">
               <form className="items-stretch bg-white flex flex-col pl-2.5 pb-12 rounded-2xl">
                 <div className="flex flex-col mb-5 pl-5 pr-8 pt-7 pb-12 items-start max-md:px-5">
@@ -51,7 +66,7 @@ const StandingDigi=()=> {
               </form>
             </div>
           </section>
-          <section className="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0">
+          <section className="slideInUp flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0">
             <div className="flex flex-col items-stretch max-md:mt-7">
               <form className="items-stretch bg-white flex flex-col pl-2.5 pb-12 rounded-2xl">
                 <div className="flex flex-col mb-4 pl-5 pr-8 pt-7 pb-12 items-start max-md:px-5">

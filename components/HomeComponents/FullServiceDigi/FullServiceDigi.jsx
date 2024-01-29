@@ -1,7 +1,9 @@
 'use client'
 import Image from "next/image";
 
-const FullServiceDigi =()=> {
+
+const FullServiceDigi = () => {
+
   return (
     <section className="items-stretch self-stretch flex flex-col pb-12 bg-backgroundColor">
       <header className="text-teal-500 text-center text-sm font-extrabold leading-8 uppercase self-center whitespace-nowrap">
@@ -13,16 +15,16 @@ const FullServiceDigi =()=> {
       <div className="justify-center w-full -mr-0.5 mt-5 mb-3.5 pr-20 max-md:max-w-full max-md:ml-0 max-md:px-5">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
          {/* 1 */}
-         <div className="container hover:shadow-2xl hover:opacity-100
-         transition-colors duration-300 rounded-md ml-20 flex 
-         flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0 ">
+         <div     
+          className="fullDigi container hover:bg-white hover:shadow-2xl hover:opacity-100 transition-colors duration-300 rounded-md ml-20 flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0 "
+                >
           <div
             className="items-center flex grow flex-col w-full pb-12 max-md:mt-9 max-md:px-2.5"
             aria-label="Significant ROI"
             role="region"
           >
-            <div className="Group1 mt-6 rounded-full  bg-slate-100 shadow-2xl hover:opacity-100
-         transition-colors duration-300 w-28 h-28 relative">
+            <div className="Group1 mt-6 rounded-full  bg-white shadow-2xl hover:opacity-100
+         transition-colors imgShadow duration-300 w-28 h-28 relative">
               <Image
                 src="/img/digi1.png"
                 alt="ROI Graphic"
@@ -39,22 +41,25 @@ const FullServiceDigi =()=> {
               Description Lorem ipsum dolor sit <br /> amet, consectetur adipiscing
               elit. <br /> Aliquam in placerat elit, consequat <br /> tristique
             </div>
-            <button className="text-center mt-2 text-white text-xl font-bold leading-8
-            bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)]
-             whitespace-nowrap px-8 py-2 rounded-3xl max-md:px-5 opacity-100 relative 
-             transition-opacity duration-300">
+            <button
+            
+         
+          className="digiButton text-center mt-6 text-white text-xl font-bold leading-8
+          bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)]
+          whitespace-nowrap px-8 py-2 rounded-3xl max-md:px-5 "
+        >
               <a href="#">Read More</a>
             </button>
           </div>
         </div>
           {/* 2 */}
-          <div className="container hover:shadow-2xl hover:bg-slate-100 transition-colors duration-300 rounded-md flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
+          <div className="fullDigi container hover:shadow-2xl hover:bg-white transition-colors duration-300 rounded-md flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
             <div
               className="items-center  flex grow flex-col w-full pb-12 max-md:mt-9 max-md:px-2.5"
               aria-label="Significant ROI"
               role="region"
             >
-              <div className="Group1  mt-6 rounded-full bg-slate-100 shadow-xl w-28 h-28 relative">
+              <div className="Group1  mt-6 rounded-full bg-white  shadow-xl imgShadow w-28 h-28 relative">
 
               <Image
                 src="/img/roi1.png"
@@ -74,22 +79,21 @@ const FullServiceDigi =()=> {
                 <br />
                 tristique
               </div>
-              <button className="text-center mt-2 text-white text-xl font-bold leading-8
+              <button className="text-center mt-6 text-white text-xl font-bold leading-8
               bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)]
-             whitespace-nowrap px-8 py-2 rounded-3xl max-md:px-5 opacity-100 relative 
-             transition-opacity duration-300">
+             whitespace-nowrap px-8 py-2 rounded-3xl max-md:px-5 digiButton">
               <a href="#">Read More</a>
             </button>
             </div>
           </div>
           {/* 3 */}
-          <div className="container hover:shadow-2xl hover:bg-slate-100 transition-colors duration-300 rounded-md flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
+          <div className="fullDigi container hover:shadow-2xl hover:bg-white transition-colors duration-300 rounded-md flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
             <div
               className="items-center flex grow flex-col w-full pb-12 max-md:mt-9 max-md:px-2.5"
               aria-label="Significant ROI"
               role="region"
             >
-              <div className="Group1  mt-6 rounded-full bg-slate-100 shadow-xl w-28 h-28 relative">
+              <div className="Group1  mt-6 rounded-full bg-white shadow-xl imgShadow w-28 h-28 relative">
 
               <Image
                 src="/img/digi2.png"
@@ -109,10 +113,9 @@ const FullServiceDigi =()=> {
                 <br />
                 tristique
               </div>
-              <button className="text-center mt-2 text-white text-xl font-bold leading-8
+              <button className="text-center mt-6 text-white text-xl font-bold leading-8
             bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)]
-             whitespace-nowrap px-8 py-2 rounded-3xl max-md:px-5 opacity-100 relative 
-             transition-opacity duration-300">
+             whitespace-nowrap px-8 py-2 rounded-3xl max-md:px-5 digiButton">
               <a href="#">Read More</a>
             </button>
             </div>

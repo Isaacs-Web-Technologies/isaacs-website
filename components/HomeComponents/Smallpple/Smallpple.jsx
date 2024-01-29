@@ -1,9 +1,23 @@
 'use client'
+import useIntersectionObserver from '../../../hooks/useIntersectionObserver';
+import { useRef,useState } from 'react';
+
 const Smallpple=() =>{
+  const cardRef = useRef(null);
+  const [hasAnimated, setHasAnimated] = useState(false);
+
+  const handleAnimation = () => {
+    if (!hasAnimated) {
+      cardRef.current.classList.add('slideInLeft','slideInRight');
+      setHasAnimated(true);
+    }
+  };
+
+  useIntersectionObserver(cardRef, handleAnimation);
   return (
     <section className="justify-center px-20 max-md:px-5 pb-12  ">
       <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-        <div className="flex flex-col items-stretch w-[48%] max-md:w-full max-md:ml-0">
+        <div ref={cardRef} className="slideInLeft flex flex-col items-stretch w-[48%] max-md:w-full max-md:ml-0">
           <img
             loading="lazy"
             src="/img/small-people.png"
@@ -11,7 +25,7 @@ const Smallpple=() =>{
             alt="Image"
           />
         </div>
-        <div className="flex flex-col items-stretch w-[52%] ml-5 max-md:w-full max-md:ml-0">
+        <div ref={cardRef} className="slideInRight flex flex-col items-stretch w-[52%] ml-5 max-md:w-full max-md:ml-0">
           <header className="flex flex-col mt-4 max-md:max-w-full max-md:mt-10">
             <h2 className="text-teal-500 text-lg font-bold leading-7 tracking-normal uppercase self-stretch max-md:max-w-full">
               Grow Traffic & Increase Revenuezzzzz

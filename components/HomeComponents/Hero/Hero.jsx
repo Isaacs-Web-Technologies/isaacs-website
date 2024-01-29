@@ -1,6 +1,20 @@
 'use client'
+import useIntersectionObserver from "../../../hooks/useIntersectionObserver";
+import { useRef } from "react";
 
 const Hero=()=> {
+  const leftColumnRef = useRef(null);
+  const rightColumnRef = useRef(null);
+
+  const restartAnimation = () => {
+    // Add animation classes to restart animations
+    leftColumnRef.current.classList.add('slideInLeft');
+    rightColumnRef.current.classList.add('slideInRight');
+  };
+
+  // Apply intersection observer to both columns
+  useIntersectionObserver(leftColumnRef, restartAnimation);
+  useIntersectionObserver(rightColumnRef, restartAnimation);
   return (
     <section className="justify-center items-stretch flex flex-col">
       <header className="flex-col overflow-hidden relative flex min-h-[512px] w-full justify-center items-stretch py-3 max-md:max-w-full">
@@ -18,7 +32,7 @@ const Hero=()=> {
           <div className="max-w-full justify-center relative w-[1140px] mx-auto px-3 py-6 max-md:pl-5">
             <div className="gap-5 flex max-md:flex-col-reverse max-md:items-stretch max-md:gap-0">
               {/* left column */}
-              <div className="flex flex-col items-stretch w-[45%] max-md:w-full max-md:ml-0">
+              <div className="flex flex-col items-stretch w-[45%] max-md:w-full max-md:ml-0" ref={leftColumnRef}>
                 <div className="text-teal-500 text-lg font-bold leading-7 tracking-normal uppercase self-stretch">
                   Get free quote for
                 </div>
@@ -38,7 +52,7 @@ const Hero=()=> {
                 />
               </div>
               {/* right column */}
-               <div className="flex flex-col items-stretch w-[55%] ml-5 max-md:w-full max-md:ml-0">
+               <div className="flex flex-col items-stretch w-[55%] ml-5 max-md:w-full max-md:ml-0 "ref={rightColumnRef}>
                 <img
                   src="/img/hero-right.png"
                   className="aspect-[1.42] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"

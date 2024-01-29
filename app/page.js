@@ -1,6 +1,6 @@
 'use client'
 import Awesome from '../components/HomeComponents/Awesome/Awesome'
-import ClientCarousel from '../components/HomeComponents/ClientCarousel/ClientCarousel'
+import ClientCarousel  from '../components/HomeComponents/ClientCarousel/ClientCarousel'
 import Contact from '../components/HomeComponents/Contact/Contact'
 import DigitalMarketing from '../components/HomeComponents/DigitalMarketing/DigitalMarketing'
 import FullServiceDigi from '../components/HomeComponents/FullServiceDigi/FullServiceDigi'

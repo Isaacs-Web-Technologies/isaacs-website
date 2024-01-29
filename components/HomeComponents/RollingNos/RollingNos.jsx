@@ -4,7 +4,7 @@ const RollinNos =()=> {
  <>
   <section className="self-stretch justify-center w-auto px-20 max-md:px-5  mx-10 max-md:max-w-full">
       <header className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-        <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
+        <div className="slideInLeft flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
           <header className="text-teal-500 text-lg font-bold leading-7 tracking-normal uppercase pb-16 self-start max-md:max-w-full">
             Why choose us
           </header>
@@ -32,14 +32,12 @@ const RollinNos =()=> {
             </span>
           </button>
         </div>
-        <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
-          <header className="self-center flex w-auto max-w-[1082px] justify-between gap-5 mt-3.5 items-start max-md:max-w-full max-md:flex-wrap">
-            <span className="items-stretch bg-white self-stretch flex justify-between gap-5 rounded-3xl max-md:max-w-full max-md:flex-wrap"></span>
-          </header>
+        <div className="slideInRight flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
+         
           {/* 1 */}
           <div
             href="#"
-            className="items-stretch mt-20 bg-white flex justify-between gap-5 w-full pb-5 rounded-3xl max-md:max-w-full max-md:flex-wrap max-md:mt-10"
+            className="items-stretch mt-20 bg-white flex justify-between gap-5 w-full   rounded-3xl max-md:max-w-full max-md:flex-wrap max-md:mt-10"
           >
             <a
               href="#"
@@ -56,7 +54,7 @@ const RollinNos =()=> {
           {/* 2 */}
           <div
             href="#"
-            className="items-stretch bg-white flex justify-between gap-5 w-full mt-3 pb-5 rounded-3xl max-md:max-w-full max-md:flex-wrap max-md:mt-10"
+            className="items-stretch bg-white flex justify-between gap-5 w-full mt-3  rounded-3xl max-md:max-w-full max-md:flex-wrap max-md:mt-10"
           >
             <a
               href="#"
@@ -73,7 +71,7 @@ const RollinNos =()=> {
           {/* 3 */}
           <div
             href="#"
-            className="items-stretch bg-white flex justify-between gap-5 w-full mt-3 pb-5 rounded-3xl max-md:max-w-full max-md:flex-wrap max-md:mt-10"
+            className="items-stretch bg-white flex justify-between gap-5 w-full mt-3 rounded-3xl max-md:max-w-full max-md:flex-wrap max-md:mt-10"
           >
             <a
               href="#"
