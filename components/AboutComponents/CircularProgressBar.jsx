@@ -6,13 +6,15 @@ const CircularProgressBar = ({ percentage, color, animate }) => {
   const circumference = 2 * Math.PI * radius;
   const offset = circumference - (percentage / 100) * circumference;
 
+  const progressBarClasses = `${styles.progressBar} ${animate ? styles.rotateIn : ''}`;
+
   return (
-    <svg className={`${styles.circularProgress} ${animate && styles.animate}`} width="100" height="120" viewBox="0 0 120 120">
+    <svg className={`${styles.circularProgress} ${animate && styles.rotateIn}`} width="100" height="120" viewBox="0 0 120 120">
       {/* Background Circle */}
       <circle className={styles.progressBarBackground} cx="60" cy="60" r={radius} />
       {/* Foreground Circle (Progress) */}
       <circle
-        className={styles.progressBar}
+        className={progressBarClasses}
         cx="60"
         cy="60"
         r={radius}
