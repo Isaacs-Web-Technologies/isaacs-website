@@ -1,12 +1,11 @@
 'use client'
-import Image from "next/image";
 
 const Awesome=()=> {
   return (
     <div>
       <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
         <div className="slideInLeft flex flex-col items-stretch w-[47%] max-md:w-full max-md:ml-0">
-          <Image
+          <img
             loading="lazy"
             src="/img/keyword analyst.png"
             alt="analyst"
