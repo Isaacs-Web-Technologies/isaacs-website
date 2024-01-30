@@ -2,7 +2,7 @@
 'use client'
 import Image from 'next/image';
 import useIntersectionObserver from '../../../hooks/useIntersectionObserver';
-import { useRef,useState } from 'react';
+import { useRef } from 'react';
 
 const DigitalMarketing = () => {
   const slideInUp = useRef(null);

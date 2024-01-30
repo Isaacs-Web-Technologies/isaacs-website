@@ -1,23 +1,26 @@
 'use client'
 import useIntersectionObserver from '../../../hooks/useIntersectionObserver';
-import { useRef,useState } from 'react';
+import { useRef} from 'react';
 
 const Smallpple=() =>{
-  const cardRef = useRef(null);
-  const [hasAnimated, setHasAnimated] = useState(false);
+  const leftColumnRef = useRef(null);
+  const rightColumnRef = useRef(null);
 
-  const handleAnimation = () => {
-    if (!hasAnimated) {
-      cardRef.current.classList.add('slideInLeft','slideInRight');
-      setHasAnimated(true);
-    }
+  const restartAnimation = () => {
+    // Add animation classes to restart animations
+    leftColumnRef.current.classList.add('slideInLeft');
+    rightColumnRef.current.classList.add('slideInRight');
   };
 
-  useIntersectionObserver(cardRef, handleAnimation);
-  return (
+// Apply intersection observer to both columns
+useIntersectionObserver(leftColumnRef, restartAnimation);
+useIntersectionObserver(rightColumnRef, restartAnimation);
+
+return (
     <section className="justify-center px-20 max-md:px-5 pb-12  ">
       <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-        <div ref={cardRef} className="slideInLeft flex flex-col items-stretch w-[48%] max-md:w-full max-md:ml-0">
+       {/* left */}
+        <div ref={leftColumnRef} className="slideInLeft flex flex-col items-stretch w-[48%] max-md:w-full max-md:ml-0">
           <img
             loading="lazy"
             src="/img/small-people.png"
@@ -25,7 +28,8 @@ const Smallpple=() =>{
             alt="Image"
           />
         </div>
-        <div ref={cardRef} className="slideInRight flex flex-col items-stretch w-[52%] ml-5 max-md:w-full max-md:ml-0">
+       {/* right */}
+        <div ref={rightColumnRef} className="slideInRight flex flex-col items-stretch w-[52%] ml-5 max-md:w-full max-md:ml-0">
           <header className="flex flex-col mt-4 max-md:max-w-full max-md:mt-10">
             <h2 className="text-teal-500 text-lg font-bold leading-7 tracking-normal uppercase self-stretch max-md:max-w-full">
               Grow Traffic & Increase Revenuezzzzz

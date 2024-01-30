@@ -2,8 +2,9 @@
 import Image from "next/image";
 
 
-const FullServiceDigi = () => {
 
+const FullServiceDigi = () => {
+  
   return (
     <section className="items-stretch self-stretch flex flex-col pb-12 bg-backgroundColor">
       <header className="text-teal-500 text-center text-sm font-extrabold leading-8 uppercase self-center whitespace-nowrap">

@@ -1,9 +1,24 @@
 'use client'
+import useIntersectionObserver from "../../../hooks/useIntersectionObserver";
+import { useRef } from "react";
 
 const Awesome=()=> {
+  const leftColumnRef = useRef(null);
+  const rightColumnRef = useRef(null);
+
+  const restartAnimation = () => {
+    // Add animation classes to restart animations
+    leftColumnRef.current.classList.add('slideInLeft');
+    rightColumnRef.current.classList.add('slideInRight');
+  };
+
+  // Apply intersection observer to both columns
+  useIntersectionObserver(leftColumnRef, restartAnimation);
+  useIntersectionObserver(rightColumnRef, restartAnimation);
   return (
     <div>
       <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+        {/* left */}
         <div className="slideInLeft flex flex-col items-stretch w-[47%] max-md:w-full max-md:ml-0">
           <img
             loading="lazy"
@@ -14,6 +29,7 @@ const Awesome=()=> {
             className="aspect-[1.23] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
           />
         </div>
+       {/* right */}
         <div className="slideInRight flex flex-col items-stretch w-[53%] ml-5 max-md:w-full max-md:ml-0">
           <span className="max-w-[1140px] items-stretch flex grow flex-col pr-3 pt-12 pb-5 max-md:max-w-full max-md:mt-10 max-sm:px-5">
             <div className="text-teal-500 text-lg font-bold leading-7 tracking-normal uppercase max-md:max-w-full">

@@ -11,6 +11,8 @@ import UniCarousel from '../components/HomeComponents/UniCarousel/UniCarousel'
 import Afrowithphone from '../components/HomeComponents/Afrowithphone/Afrowithphone'
 import Hero from '../components/HomeComponents/Hero/Hero'
 import RollinNos from '../components/HomeComponents/RollingNos/RollingNos'
+import { SwipeCarousel } from '../components/sel'
+// import { SwipeCarousel } from '../components/caro'
 
 
 export default function Home() {
@@ -28,6 +30,8 @@ export default function Home() {
     <ClientCarousel />
     <Contact />
     <Purpleseo/>
+    {/* <SwipeCarousel /> */}
+     <SwipeCarousel />
     </>
    
   )

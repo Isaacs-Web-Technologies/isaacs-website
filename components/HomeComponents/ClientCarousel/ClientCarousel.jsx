@@ -10,9 +10,12 @@ const ClientCarousel=() =>{
         <div className="text-neutral-700 text-center text-3xl font-extrabold leading-10 self-center whitespace-nowrap mt-2">
           Our Latest Case Studies
         </div>
+       
         <div className="flex flex-col relative shrink-0 box-border mt-5 mx-auto">
-          <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-            <div className="flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0">
+           {/* client cards div */}
+           <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+           {/* img1 */}
+           <div className=" container shadow-2xl bg-white rounded-md flex flex-col items-stretch mb-10  w-[33%] ml-20 max-md:w-full max-md:ml-0 ">
               <img
                 loading="lazy"
                 src="/img/seobestpractices.jpg"
@@ -23,7 +26,8 @@ const ClientCarousel=() =>{
                 Enter some text...
               </div>
             </div>
-            <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
+            {/* img2 */}
+            <div className=" container shadow-2xl bg-white rounded-md flex flex-col items-stretch mb-10  w-[33%] ml-20 max-md:w-full max-md:ml-0 ">
               <img
                 loading="lazy"
                 src="/img/importance.jpg"
@@ -35,7 +39,8 @@ const ClientCarousel=() =>{
                 Enter some text...
               </div>
             </div>
-            <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
+            {/* img3 */}
+            <div className=" container shadow-2xl bg-white rounded-md flex flex-col items-stretch mb-10  w-[33%] ml-20 max-md:w-full max-md:ml-0 ">
               <img
                 loading="lazy"
                 src="/img/starbucks.jpg"
@@ -48,12 +53,12 @@ const ClientCarousel=() =>{
             </div>
           </div>
         </div>
-        <div className="self-stretch flex flex-row mt-auto px-16 max-md:max-w-full max-md:px-5" />
+        {/*  */}
         <button className="items-stretch shadow-sm bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)] self-center flex w-[219px] max-w-full flex-col justify-center mt-8 px-10 py-4 rounded-3xl max-md:px-5">
           <span className="justify-between items-stretch flex gap-3 px-0.5">
-            <div className="text-white text-center text-base font-bold leading-5 capitalize grow whitespace-nowrap">
+            <h4 className="text-white text-center text-base font-bold leading-5 capitalize grow whitespace-nowrap">
               More About us
-            </div>
+            </h4>
             <div className="text-white text-center text-base font-black leading-4 capitalize self-center whitespace-nowrap my-auto">
               
             </div>
