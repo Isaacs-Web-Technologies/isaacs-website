@@ -1,12 +1,26 @@
 import React from "react";
+import useIntersectionObserver from "../../hooks/useIntersectionObserver";
+import { useRef } from "react";
 
 const Meeting=()=> {
+  const leftColumnRef = useRef(null);
+  const rightColumnRef = useRef(null);
+
+  const restartAnimation = () => {
+    // Add animation classes to restart animations
+    leftColumnRef.current.classList.add('slideInLeft');
+    rightColumnRef.current.classList.add('slideInRight');
+  };
+
+  // Apply intersection observer to both columns
+  useIntersectionObserver(leftColumnRef, restartAnimation);
+  useIntersectionObserver(rightColumnRef, restartAnimation);
   return (
     <section
-     className="justify-center items-center flex flex-col px-16 max-md:px-5">
+     className="mt-10 justify-center items-center flex flex-col px-16 max-md:px-5">
       <div className="w-full max-w-[1037px] max-md:max-w-full">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-          <header className="flex flex-col items-stretch w-[47%] max-md:w-full max-md:ml-0">
+          <header ref={leftColumnRef} className="flex flex-col items-stretch w-[47%] max-md:w-full max-md:ml-0">
             <span className="flex flex-col my-auto max-md:max-w-full max-md:mt-10">
               <h2 className="text-teal-500 text-lg font-bold leading-7 tracking-normal uppercase self-stretch max-md:max-w-full">
                 Get Started
@@ -30,7 +44,7 @@ const Meeting=()=> {
               </div>
             </span>
           </header>
-          <div className="flex flex-col items-stretch w-[53%] ml-5 max-md:w-full max-md:ml-0">
+          <div ref={rightColumnRef} className="flex flex-col items-stretch w-[53%] ml-5 max-md:w-full max-md:ml-0">
             <img
              src="/img/services-meeting.png"
              className="aspect-[1.15] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10" />

@@ -23,7 +23,7 @@ const Afrowithphone=()=> {
     <section className="justify-center mt-10 mx-10 pb-2 px-20 max-md:px-5">
       <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
        {/* left */}
-        <div ref={leftColumnRef} className="slideInLeft flex flex-col items-stretch w-[52%] max-md:w-full max-md:ml-0">
+        <div ref={leftColumnRef} className=" flex flex-col items-stretch w-[52%] max-md:w-full max-md:ml-0">
           <span className="flex flex-col my-auto max-md:max-w-full max-md:mt-10">
             <div className="text-teal-500 text-lg font-bold leading-7 tracking-normal uppercase self-stretch max-md:max-w-full">
               Why choose us
@@ -51,7 +51,7 @@ const Afrowithphone=()=> {
           </span>
         </div>
        {/* right */}
-        <div ref={rightColumnRef} className="slideInRight flex flex-col items-stretch w-[48%] ml-5 max-md:w-full max-md:ml-0">
+        <div ref={rightColumnRef} className=" flex flex-col items-stretch w-[48%] ml-5 max-md:w-full max-md:ml-0">
           <Image
             loading="lazy"
             src="/img/testimonial.png"

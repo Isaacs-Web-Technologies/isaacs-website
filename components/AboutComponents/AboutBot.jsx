@@ -1,17 +1,31 @@
 'use client'
-
+import useIntersectionObserver from "../../hooks/useIntersectionObserver";
+import { useRef } from "react";
 
 const AboutBot=()=> {
+  const leftColumnRef = useRef(null);
+  const rightColumnRef = useRef(null);
+
+  const restartAnimation = () => {
+    // Add animation classes to restart animations
+    leftColumnRef.current.classList.add('slideInLeft');
+    rightColumnRef.current.classList.add('slideInRight');
+  };
+
+  // Apply intersection observer to both columns
+  useIntersectionObserver(leftColumnRef, restartAnimation);
+  useIntersectionObserver(rightColumnRef, restartAnimation);
+
   return (
     <div>
       <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-        <div className="flex flex-col items-stretch w-[56%] max-md:w-full max-md:ml-0">
+        <div ref={leftColumnRef} className="flex flex-col items-stretch w-[56%] max-md:w-full max-md:ml-0">
           <img
             src="/img/aboutBot.png"
             alt="aboutBot"
           />
         </div>
-        <div className="flex flex-col items-stretch w-[44%] ml-5 max-md:w-full max-md:ml-0">
+        <div ref={rightColumnRef}  className="flex flex-col items-stretch w-[44%] ml-5 max-md:w-full max-md:ml-0">
           <div className="flex grow flex-col items-stretch px-5 max-md:max-w-full max-md:mt-10">
             <div className="text-neutral-700 text-3xl leading-10 max-md:max-w-full">
               Save Time & Effort

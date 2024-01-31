@@ -1,7 +1,21 @@
 'use client'
+import useIntersectionObserver from "../../hooks/useIntersectionObserver";
+import { useRef } from "react";
+
+
 const AboutTeam=()=> {
+  const slideInUpRef = useRef(null);
+
+  const restartAnimation = () => {
+    // Add animation classes to restart animations
+    slideInUpRef.current.classList.add('slideInUp');
+  };
+
+  // Apply intersection observer to both columns
+  useIntersectionObserver(slideInUpRef, restartAnimation);
+
   return (
-    <div className="flex flex-col px-5">
+    <div ref={slideInUpRef} className="flex flex-col px-5">
       <header className="text-teal-500 text-center text-sm leading-7 uppercase self-center whitespace-nowrap">
         WHY ARE WE THE BEST?
       </header>
@@ -52,16 +66,18 @@ const AboutTeam=()=> {
         </div>
       </form>
 
-      <a href="#" className="items-stretch shadow-sm bg-[linear-gradient(269deg,#8F00FF_0%,#C356F7_50%,#7000FF_100%)] self-center flex w-[172px] max-w-full flex-col mt-32 pt-4 pb-1 px-10 rounded-3xl max-md:mt-10 max-md:px-5">
-        <div className="justify-between items-stretch flex gap-3 px-0.5">
-          <span className="text-white text-center text-base leading-5 capitalize">
-            All Team
-          </span>
-          <span className="text-white text-center text-base font-black leading-4 capitalize self-center my-auto">
-            
-          </span>
-        </div>
-      </a>
+      <button
+        className="items-stretch shadow-sm
+          bg-[linear-gradient(269deg,#8F00FF_0%,#C356F7_50%,#7000FF_100%)] 
+          self-center flex w-[172px] max-w-full flex-col 
+          pt-4 pb-4 px-10 my-6 rounded-3xl max-md:mt-10
+          max-md:px-5 text-white text-center 
+          text-lg font-bold leading-4 whitespace-nowrap 
+          items-stretch self-center justify-center"
+        role="button"
+      >
+        All Team
+        </button>
     </div>
   );
 }

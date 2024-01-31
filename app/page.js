@@ -1,6 +1,6 @@
 'use client'
 import Awesome from '../components/HomeComponents/Awesome/Awesome'
-import Contact from '../components/HomeComponents/Contact/Contact'
+import HContact from '../components/HomeComponents/Contact/HContact'
 import DigitalMarketing from '../components/HomeComponents/DigitalMarketing/DigitalMarketing'
 import FullServiceDigi from '../components/HomeComponents/FullServiceDigi/FullServiceDigi'
 import Purpleseo from '../components/HomeComponents/Purpleseo/Purpleseo'
@@ -25,7 +25,7 @@ export default function Home() {
     <Awesome />
     <Afrowithphone />
     <CarouselComponent />
-    <Contact />
+    <HContact />
     <Purpleseo/>
 
     </>

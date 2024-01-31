@@ -17,9 +17,9 @@ const DigitalMarketing = () => {
   return (
     <div className="items-stretch self-stretch flex flex-col pb-12  ">
       <div className="justify-center w-full  mt-10 mb-3.5 pr-20 max-md:max-w-full max-md:ml-0 max-md:px-5">
-        <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+        <div ref={slideInUp}  className=" gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
         {/* 1 */}
-          <div className="slideInUp  container shadow-2xl bg-white rounded-md flex flex-col items-stretch mb-10  w-[33%] ml-20 max-md:w-full max-md:ml-0 "ref={slideInUp}>
+          <div className="container shadow-2xl bg-white rounded-md flex flex-col items-stretch mb-10  w-[33%] ml-20 max-md:w-full max-md:ml-0 ">
            <div
               className="items-center  flex grow flex-col w-full pb-12 max-md:mt-9 max-md:px-2.5"
               aria-label="Significant ROI"
@@ -53,7 +53,7 @@ const DigitalMarketing = () => {
             </div>
           </div>
         {/* 2 */}
-          <div className="slideInUp   container shadow-2xl bg-white rounded-md flex flex-col items-stretch mb-10 w-[33%] ml-5 max-md:w-full max-md:ml-0 "ref={slideInUp}>
+          <div className=" container shadow-2xl bg-white rounded-md flex flex-col items-stretch mb-10 w-[33%] ml-5 max-md:w-full max-md:ml-0 ">
             <div
               className="items-center  flex grow flex-col w-full pb-12 max-md:mt-9 max-md:px-2.5"
               aria-label="Significant ROI"
@@ -86,7 +86,7 @@ const DigitalMarketing = () => {
             </div>
           </div>
           {/* 3 */}
-          <div  className="slideInUp  container shadow-2xl bg-white rounded-md flex flex-col items-stretch mb-10 w-[33%] ml-5 max-md:w-full max-md:ml-0  "ref={slideInUp}>
+          <div  className="container shadow-2xl bg-white rounded-md flex flex-col items-stretch mb-10 w-[33%] ml-5 max-md:w-full max-md:ml-0  ">
             <div
               className="items-center  flex grow flex-col w-full pb-12 max-md:mt-9 max-md:px-2.5"
               aria-label="Significant ROI"

@@ -1,6 +1,18 @@
 'use client'
+import useIntersectionObserver from "../../hooks/useIntersectionObserver";
+import { useRef } from "react";
 
 const  ServicesGrid=()=> {
+  const zoomInUpRef = useRef(null);
+  
+  const restartAnimation = () => {
+    // Add animation classes to restart animations
+    zoomInUpRef.current.classList.add('zoomInUp');
+  };
+
+  // Apply intersection observer to both columns
+  useIntersectionObserver(zoomInUpRef, restartAnimation);
+
   return (
     <section className="flex flex-col items-center px-5">
       <h3 className="text-teal-500 text-center text-sm leading-7 uppercase whitespace-nowrap">
@@ -9,7 +21,7 @@ const  ServicesGrid=()=> {
       <h4 className="text-neutral-700 text-center text-3xl leading-10 whitespace-nowrap mt-6">
         Let’s Check Our Services
       </h4>
-      <div className="self-stretch w-full mt-16 max-md:max-w-full max-md:mt-10">
+      <div ref={zoomInUpRef}  className="self-stretch w-full mt-16 max-md:max-w-full max-md:mt-10">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0">
             <span className="items-stretch shadow-lg bg-white flex grow flex-col w-full mt-8 px-8 py-11 rounded-xl max-md:mt-10 max-md:px-5">
@@ -61,7 +73,7 @@ const  ServicesGrid=()=> {
           </div>
         </div>
       </div>
-      <div className="self-stretch w-full mt-6 max-md:max-w-full">
+      <div ref={zoomInUpRef}  className="self-stretch w-full mt-6 max-md:max-w-full">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0">
             <span className="items-stretch shadow-lg bg-white flex grow flex-col w-full mt-8 px-6 py-10 rounded-xl max-md:mt-10 max-md:px-5">
@@ -113,7 +125,7 @@ const  ServicesGrid=()=> {
           </div>
         </div>
       </div>
-      <div className="self-stretch w-full mt-7 max-md:max-w-full">
+      <div ref={zoomInUpRef}  className="self-stretch w-full mt-7 max-md:max-w-full">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0">
             <span className="items-stretch shadow-lg bg-white flex grow flex-col w-full mt-8 px-5 py-12 rounded-xl max-md:mt-10 max-md:px-5">

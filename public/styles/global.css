@@ -490,35 +490,35 @@ body {
 }
 
 @keyframes bounceInUp {
-    60%,75%,90%,from,to {
-        animation-timing-function: cubic-bezier(.215,.61,.355,1)
+    0%, 60%, 75%, 90%, to {
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1);
     }
 
-    from {
+    0% {
         opacity: 0;
-        transform: translateX(0,3000px,0)
+        transform: translate3d(0, 3000px, 0);
     }
 
     60% {
         opacity: 1;
-        transform: translateX(0,-20px,0)
+        transform: translate3d(0, -20px, 0);
     }
 
     75% {
-        transform: translateX(0,10px,0)
+        transform: translate3d(0, 10px, 0);
     }
 
     90% {
-        transform: translateX(0,-5px,0)
+        transform: translate3d(0, -5px, 0);
     }
 
     to {
-        transform: translateX(0,0,0)
+        transform: translate3d(0, 0, 0);
     }
 }
 
 .bounceInUp {
-    animation-name: bounceInUp
+    animation-name: bounceInUp;
 }
 
 @keyframes fadeIn {
@@ -803,34 +803,37 @@ body {
 @keyframes zoomInUp {
     from {
         opacity: 0;
-        transform: scale3d(.1,.1,.1) translateX(0,1000px,0);
-        animation-timing-function: cubic-bezier(.55,.055,.675,.19)
+        transform: scale3d(0.5, 0.5, 0.5) translate3d(0, 1000px, 0);
+        animation-timing-function: cubic-bezier(.55, .055, .675, .19);
     }
 
     60% {
         opacity: 1;
-        transform: scale3d(.475,.475,.475) translateX(0,-60px,0);
-        animation-timing-function: cubic-bezier(.175,.885,.32,1)
+        transform: scale3d(1.2, 1.2, 1.2) translate3d(0, -60px, 0);
+        animation-timing-function: cubic-bezier(.175, .885, .32, 1);
     }
 }
 
 .zoomInUp {
-    animation-name: zoomInUp
+    animation-name: zoomInUp;
 }
 
 @keyframes slideInDown {
     from {
-        transform: translateX(0,-100%,0);
-        visibility: visible
+        transform: translateY(1) ; 
+        opacity: 1;
     }
 
     to {
-        transform: translateX(0,0,0)
+        transform: translateY(100%)  translateY(0);
+        opacity: 0;
     }
 }
 
 .slideInDown {
-    animation-name: slideInDown
+    animation-name: slideInDown;
+    animation-duration: 5s; 
+    animation-timing-function: ease-in;
 }
 
 

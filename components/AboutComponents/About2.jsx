@@ -1,4 +1,5 @@
 import CircularProgressBar from './CircularProgressBar';
+import useIntersectionObserver from "../../hooks/useIntersectionObserver";
 import { useRef, useEffect } from 'react';
 
 const About2 = () => {
@@ -34,6 +35,20 @@ const About2 = () => {
     };
   }, [progressBarRefs]);
 
+
+  const leftColumnRef = useRef(null);
+  const rightColumnRef = useRef(null);
+
+  const restartAnimation = () => {
+    // Add animation classes to restart animations
+    leftColumnRef.current.classList.add('slideInLeft');
+    rightColumnRef.current.classList.add('slideInRight');
+  };
+
+  // Apply intersection observer to both columns
+  useIntersectionObserver(leftColumnRef, restartAnimation);
+  useIntersectionObserver(rightColumnRef, restartAnimation);
+
   return (
     <section className="justify-center items-stretch flex flex-col">
     <header className="flex-col overflow-hidden relative flex min-h-[512px] w-full justify-center items-stretch py-3 max-md:max-w-full">
@@ -47,10 +62,8 @@ const About2 = () => {
                 Fresh Ideas for Every Business
         </h1>
             <div className="gap-5 flex max-md:flex-col-reverse max-md:items-stretch max-md:gap-0">
-
-            
-            
-              <div className="flex flex-row items-stretch  max-md:w-full max-md:ml-0">
+              {/* progress bar and description */}
+              <div ref={leftColumnRef} className="flex flex-row items-stretch  max-md:w-full max-md:ml-0">
                 {/* progress bar */}
                 <div className="flex flex-col w-[28%] items-center max-md:mt-10">
                 {progressBarRefs.map((ref, index) => (
@@ -62,9 +75,6 @@ const About2 = () => {
                       <CircularProgressBar percentage={percentages[index]} color="purple" animate={true} />
                   </div>
               ))}
-
-               
-            
                 </div>
                 {/* description of progress bar */}
                 <div className="flex flex-col mt-10 w-[72%] items-stretch max-md:mt-10">
@@ -91,8 +101,9 @@ const About2 = () => {
                   </p>
                 </div>
               </div>
+              
                 {/* image */}
-                <div className="flex flex-col items-stretch w-[50%] ml-5 max-md:w-full max-md:ml-0">
+                <div ref={rightColumnRef} className="flex flex-col items-stretch w-[50%] ml-5 max-md:w-full max-md:ml-0">
                   <img
                     src="/img/aboutus2.png"
                     alt="about us"

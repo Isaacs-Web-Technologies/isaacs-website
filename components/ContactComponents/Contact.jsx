@@ -47,23 +47,36 @@ const Contact =()=> {
               </div>
      </div>
   {/* form */}
-      <div className="flex px-6 mb-8 mt-6 flex-col items-stretch w-[61%] ml-5 max-md:w-full max-md:ml-0">
+      <div className=" flex px-6 mb-8 mt-6 flex-col items-stretch w-[61%] ml-5 max-md:w-full max-md:ml-0">
           <form className="shadow-lg bg-white flex grow flex-col items-stretch w-full pl-12 pr-6 py-12 rounded-3xl max-md:max-w-full max-md:px-5">
           <div className="flex items-start justify-between gap-5 mt-1.5 px-px max-md:max-w-full max-md:flex-wrap">
               <h1 className="text-neutral-700 text-3xl leading-10 grow shrink basis-auto self-start">Keep in Touch</h1>
              
           </div>
-          <input className=" flex-grow-0 border-b border-black mt-20 max-md:max-w-full max-md:mt-10" />
-          <input className=" flex-grow-0 border-b border-black mt-16 max-md:max-w-full max-md:mt-10" />
-          <input className=" flex-grow-0 border-b border-black mt-16 max-md:max-w-full max-md:mt-10" />
-          <input className=" flex-grow-0 border-b border-black mt-16 max-md:max-w-full max-md:mt-10" />
-          <input className=" flex-grow-0 border-b border-black mt-36 max-md:max-w-full max-md:mt-10" />
-          <button
-              className="shadow-sm text-white text-center justify-content-center items-center py-5 text-nowrap bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)] flex px-6 mr-auto flex-col mt-16 rounded-3xl max-md:mt-10"
-              type="submit"
-          >
-              More About us
-          </button> 
+          <input
+                    type="name"
+                    placeholder="Name"
+                     className=" flex-grow-0 border-b border-black mt-12 max-md:max-w-full max-md:mt-10" />
+                    <input 
+                    type="Email"
+                    placeholder="Email"
+                    className=" flex-grow-0 border-b border-black mt-10 max-md:max-w-full max-md:mt-10" />
+                    <input 
+                    type="Phone Number"
+                    placeholder="Phone Number"
+                    className=" flex-grow-0 border-b border-black mt-10 max-md:max-w-full max-md:mt-10" />
+                     <textarea 
+                    type="message"
+                    placeholder="Your message"
+                    className=" flex-grow-0 border-b border-black mt-10 max-md:max-w-full max-md:mt-10" 
+                    style={{ width: '100%', minHeight: '100px', height: 'auto' }}
+                    rows={4}/>
+                    <button
+                        className="shadow-sm text-white text-center justify-content-center items-center py-5 text-nowrap bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)] flex px-6 mr-auto flex-col mt-16 rounded-3xl max-md:mt-10"
+                        type="submit"
+                    >
+                        More About us
+                    </button> 
       
           </form>
       </div> 

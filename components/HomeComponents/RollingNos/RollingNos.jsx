@@ -19,7 +19,7 @@ const RollinNos =()=> {
  <>
   <section className="self-stretch justify-center w-auto px-20 max-md:px-5  mx-10 max-md:max-w-full">
       <header className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-        <div ref={leftColumnRef} className="slideInLeft flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
+        <div ref={leftColumnRef} className=" flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
           <header className="text-teal-500 text-lg font-bold leading-7 tracking-normal uppercase pb-16 self-start max-md:max-w-full">
             Why choose us
           </header>
@@ -47,7 +47,7 @@ const RollinNos =()=> {
             </span>
           </button>
         </div>
-        <div ref={rightColumnRef} className="slideInRight flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
+        <div ref={rightColumnRef} className=" flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
          
           {/* 1 */}
           <div
