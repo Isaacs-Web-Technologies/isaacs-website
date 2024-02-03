@@ -1,6 +1,7 @@
 'use client'
 import useIntersectionObserver from "../../../hooks/useIntersectionObserver";
 import { useRef } from "react";
+import { TypeAnimation } from 'react-type-animation';
 
 const Hero=()=> {
   const leftColumnRef = useRef(null);
@@ -36,8 +37,21 @@ const Hero=()=> {
                 <div className="text-teal-500 text-lg font-bold leading-7 tracking-normal uppercase self-stretch">
                   Get free quote for
                 </div>
-                <div className="justify-center text-black text-5xl font-bold leading-7 capitalize self-stretch mt-16 mb-5 max-md:text-4xl max-md:leading-6 max-md:mt-10">
-                  Search Engine <br /> <br /> Optimization.
+                <div className="justify-center text-black text-5xl font-bold leading-12 capitalize self-stretch mt-10 mb-5 py-auto max-md:text-4xl max-md:leading-6 max-md:mt-10">
+                   <TypeAnimation
+                    sequence={[
+                      `Search Engine\nOptimization.`,
+                      1000,
+                      `Social Media\tMarketing.`,
+                      1000,
+                      `Organic Long\tTerm-SEO.`,
+                      1000,
+                    ]}
+                    speed={50}
+                    repeat={Infinity}
+
+
+                  />
                 </div>
                 <button
                   className="text-white text-center text-lg font-bold leading-4 uppercase whitespace-nowrap items-stretch self-center justify-center bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)] mr-auto my-auto px-8 py-5 rounded-3xl max-md:px-5"
