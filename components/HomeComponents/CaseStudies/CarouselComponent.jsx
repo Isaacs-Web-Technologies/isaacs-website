@@ -30,7 +30,7 @@ const CarouselComponent = () => {
   const deviceType = isMobile ? 'mobile' : (isTablet ? 'tablet' : 'desktop');
 
   return (
-    <>
+    <section className="mb-16">
     
  
     <div className="text-teal-500 text-center text-sm font-extrabold leading-8 uppercase self-center whitespace-nowrap">
@@ -41,14 +41,18 @@ const CarouselComponent = () => {
   </div>
  
     <Carousel
+      arrows={false} 
+      showDots={true} 
+      centerMode={true}
+      // renderDotsOutside={true}
       swipeable={true}
       draggable={true}
-      showDots={true}
+      
       responsive={responsive}
       ssr={false}
       infinite={true}
       autoPlay={deviceType !== "mobile"} 
-      autoPlaySpeed={2000}
+      autoPlaySpeed={1000}
       keyBoardControl={true}
       customTransition="all .5"
       transitionDuration={500}
@@ -126,11 +130,13 @@ const CarouselComponent = () => {
           </div>
         </div>
       </div>
+      
     </Carousel>
-    <div className="mb-6">
-  </div>
-    </>
+
+
+    </section>
   );
 };
+
 
 export default CarouselComponent;

@@ -36,7 +36,7 @@ const RollinNos =()=> {
           <button className="items-stretch shadow-sm bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)] flex w-[219px] max-w-full flex-col justify-center mt-8 px-10 py-4 rounded-3xl self-start max-md:px-5">
             <span className="justify-between items-stretch flex gap-3 px-0.5">
               <a
-                href="#"
+                href="/About"
                 className="text-white text-center text-base font-bold leading-5 capitalize grow whitespace-nowrap"
               >
                 More About us

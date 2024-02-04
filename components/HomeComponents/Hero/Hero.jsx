@@ -37,7 +37,7 @@ const Hero=()=> {
                 <div className="text-teal-500 text-lg font-bold leading-7 tracking-normal uppercase self-stretch">
                   Get free quote for
                 </div>
-                <div className="justify-center text-black text-5xl font-bold leading-12 capitalize self-stretch mt-10 mb-5 py-auto max-md:text-4xl max-md:leading-6 max-md:mt-10">
+                <div className="justify-center h-[100px] md:h-[80px] sm:h-[25px]  text-black text-5xl font-bold leading-12 capitalize self-stretch mt-10 mb-5 py-auto md:mb-auto sm:mb-auto max-md:text-4xl max-md:leading-10 max-md:mt-10">
                    <TypeAnimation
                     sequence={[
                       `Search Engine\nOptimization.`,
@@ -53,12 +53,16 @@ const Hero=()=> {
 
                   />
                 </div>
+                <a href= "/About">
                 <button
-                  className="text-white text-center text-lg font-bold leading-4 uppercase whitespace-nowrap items-stretch self-center justify-center bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)] mr-auto my-auto px-8 py-5 rounded-3xl max-md:px-5"
+                  className=" text-white text-center text-lg font-bold leading-4 uppercase whitespace-nowrap items-stretch self-center justify-center bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)] mr-auto my-auto px-8 py-5 rounded-3xl max-md:px-5"
                   role="button"
                 >
+                  
                   More About us
+                 
                 </button>
+                </a>
                 <img
                   src="/img/google rate.png"
                   className="aspect-[4.83] object-contain object-center w-[285px] max-w-full overflow-hidden mt-14 self-start max-md:mt-10"

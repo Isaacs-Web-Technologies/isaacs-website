@@ -43,8 +43,6 @@ const FullServiceDigi = () => {
               elit. <br /> Aliquam in placerat elit, consequat <br /> tristique
             </div>
             <button
-            
-         
           className="digiButton text-center mt-6 text-white text-xl font-bold leading-8
           bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)]
           whitespace-nowrap px-8 py-2 rounded-3xl max-md:px-5 "

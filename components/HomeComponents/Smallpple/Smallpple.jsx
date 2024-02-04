@@ -44,6 +44,7 @@ return (
               <br /> sodales ultricies vitae a elit. Donec velit massa <br />,
               dapibus eu facilisis eu.
             </p>
+            <a href= "/About">
             <button
               className="items-stretch shadow-sm bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)] flex w-[219px] max-w-full flex-col justify-center mt-8 px-10 py-4 rounded-3xl self-start max-md:px-5"
               aria-label="More About us"
@@ -58,6 +59,7 @@ return (
                 </div>
               </span>
             </button>
+            </a>
           </header>
         </div>
       </div>

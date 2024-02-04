@@ -19,14 +19,14 @@ const Navbar =()=> {
           <div className="relative self-stretch flex flex-row gap-5 justify-between w-full items-center my-3">
             <div className="flex flex-row grow-[1.1674179080885916] self-stretch relative max-md:items-center max-md:w-full max-md:mr-auto max-md:my-auto max-sm:justify-start">
               <img
-                src="/img/Transparent-logo.png"
+                src="/img/Logo-01.png"
                 alt="Logo"
                 className=" object-cover object-center 
                 w-full shrink-0 box-border 
-                overflow-hidden max-h-12 max-w-[91px] max-md:w-auto
-                 max-md:grow max-md:mr-auto max-sm:max-h-[42px] max-sm:max-w-[53px] 
+                overflow-hidden max-h-20 max-w-20 
+                 max-md:grow max-md:mr-auto max-sm:max-h-[50px] 
                  max-sm:min-w-[42px] max-sm:mr-auto p-1 
-                 flex-start justify-start h-20 top-0 left-0 mr-4"
+                 flex-start justify-start h-40 top-0 left-0 mr-4"
               />
               <div className="relative flex flex-col grow-[3.1608208817763215] mt-4 max-md:hidden max-md:flex-row max-md:mr-auto max-sm:hidden">
                 <div className="relative self-stretch flex flex-row gap-4 justify-start max-md:justify-center">
@@ -60,12 +60,11 @@ const Navbar =()=> {
             </div>
             <div className="relative flex flex-row grow-0 w-auto ml-auto mt-px max-md:hidden max-sm:hidden">
               <div className="relative flex flex-row gap-4 ml-4">
-                <button className="text-white text-center text-lg font-bold leading-4 uppercase whitespace-nowrap items-stretch self-center justify-center bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)] my-auto px-8 py-4 rounded-3xl max-md:px-5">
-                  <a href= "/">
+              <a href= "/Contact">
+                <button className="text-white text-center text-lg font-bold leading-4 uppercase whitespace-nowrap items-stretch self-center justify-center bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)] my-auto px-8 py-4 rounded-3xl max-md:px-5">                  
                   Get a Quote
-                  </a>
-                  
                 </button>
+                </a>
               </div>
             </div>
           </div>
