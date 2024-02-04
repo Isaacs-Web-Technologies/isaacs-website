@@ -99,7 +99,7 @@ const Navbar =()=> {
          </Link>
           </li>
           <li onClick={handleHamburgerClick} className="py-5 ">
-         <Link className = "text-white no-underline hover:text-purple-700 cursor-pointer" href= "/Project">
+         <Link className = "text-white no-underline hover:text-purple-700 cursor-pointer" href= "/Projects">
          Project
          </Link>
           </li>
