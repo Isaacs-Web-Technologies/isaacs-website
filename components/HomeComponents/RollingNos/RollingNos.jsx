@@ -23,12 +23,16 @@ const RollinNos =()=> {
           <header className="text-teal-500 text-lg font-bold leading-7 tracking-normal uppercase pb-16 self-start max-md:max-w-full">
             Why choose us
           </header>
-          <div className="text-black text-lg leading-7 tracking-normal uppercase -mr-1 max-md:max-w-full max-md:mt-10 max-sm:ml-1">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-            <br /> bibendum auctor justo, ac bibendum neque sollicitudin ac.
-            <br /> Duis feugiat non urna nec tincidunt. Sed nec est eget sem
-            <br /> sodales ultricies vitae a elit. Donec velit massa
-            <br /> dapibus eu facilisis eu.
+          <div className="text-black text-lg leading-7 tracking-normal  -mr-1 max-md:max-w-full max-md:mt-10 max-sm:ml-1">   
+          With strategic optimization, your website gains visibility, 
+          credibility, and authority, attracting qualified leads and boosting conversions.
+           <br />  <br />   SEO isn’t just about ranking higher – it’s about understanding your audience 
+            and tailoring your offerings to their needs. 
+           <br /> <br />  Plus, it’s a long-term strategy with enduring rewards,
+           <br /> delivering sustainable growth for your business.
+            <br />  <br /> Ready to unlock your business’s full potential?
+            <br />
+          Start with SEO today.
           </div>
           <div className="text-black text-lg font-bold leading-7 tracking-normal uppercase grow shrink basis-auto mt-11 max-md:mt-10">
             Boosts Your Website Traffic!

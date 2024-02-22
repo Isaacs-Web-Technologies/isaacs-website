@@ -36,13 +36,13 @@ const DigitalMarketing = () => {
               />
               </div>
               <h2 className="text-neutral-700 text-center text-xl font-bold leading-8 self-center whitespace-nowrap mt-14 max-md:mt-10">
-                Significant ROuI
+              Seamless Web Design
               </h2>
               <div className="text-black text-center text-base leading-6 self-stretch mt-5">
-                Description Lorem ipsum dolor sit <br /> amet, consectetur
-                adipiscing elit. <br /> Aliquam in placerat elit, consequat
+              Craft a captivating online presence<br /> that not only attracts but retains visitors <br />
+              with our seamless web design solutions, <br /> ensuring a smooth and memorable 
                 <br />
-                tristique
+                user journey from start to finish. 
               </div>
             
              <a href="#"
@@ -71,13 +71,13 @@ const DigitalMarketing = () => {
               />
               </div>
               <h2 className="text-neutral-700 text-center text-xl font-bold leading-8 self-center whitespace-nowrap mt-14 max-md:mt-10">
-                Significant ROI
+              UI/UX Review
               </h2>
               <div className="text-black text-center text-base leading-6 self-stretch mt-5">
-                Description Lorem ipsum dolor sit <br /> amet, consectetur
-                adipiscing elit. <br /> Aliquam in placerat elit, consequat{" "}
-                <br />
-                tristique
+              Elevate your digital presence to <br />  new heights with our expert UI/UX review,     <br />  
+              optimizing every aspect of your interface to
+               <br /> enhance user engagement,  satisfaction,<br /> and ultimately,  conversions. 
+              
               </div>
               <a href="#"
              className="text-center text-purple-600 text-xl font-bold leading-8 mt-5">
@@ -104,13 +104,13 @@ const DigitalMarketing = () => {
               />
               </div>
               <h2 className="text-neutral-700 text-center text-xl font-bold leading-8 self-center whitespace-nowrap mt-14 max-md:mt-10">
-                Significant ROI
+              Social Media Marketing
               </h2>
               <div className="text-black text-center text-base leading-6 self-stretch mt-5">
-                Description Lorem ipsum dolor sit <br /> amet, consectetur
-                adipiscing elit. <br /> Aliquam in placerat elit, consequat{" "}
+              Ignite your brand’s growth across social  <br />  platforms with our tailored social  media marketing 
+                <br /> strategies, driving engagement, fostering community,  and 
                 <br />
-                tristique
+               propelling your brand  to the forefront <br />of conversations.
               </div>
               <a href="#"
              className="text-center text-purple-600 text-xl font-bold leading-8 mt-5">

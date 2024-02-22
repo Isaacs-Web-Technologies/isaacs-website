@@ -38,9 +38,8 @@ const Awesome=()=> {
             <div className="text-black text-lg font-bold leading-7 tracking-normal uppercase mt-7 max-md:max-w-full">
               Outstanding Digital Experience
             </div>
-            <div className="justify-center text-black text-lg leading-7 tracking-normal uppercase mt-10 pr-11 max-md:max-w-full">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-              bibendum auctor justo, ac bibendum neque sollicitudin ac.
+            <div className="justify-center text-black text-lg leading-7 tracking-normal  mt-10 pr-11 max-md:max-w-full">
+            Harness the power of SEO to propel your business to new heights! 
             </div>
             <div className="flex flex-row "></div>
             <div className="flex items-stretch justify-between gap-5 mt-7 pr-20 max-md:max-w-full max-md:flex-wrap max-md:pr-5">
@@ -52,13 +51,13 @@ const Awesome=()=> {
               </div>
               {/* % */}
               <span className="flex basis-[0%] flex-col items-stretch self-start">
-                <div className="justify-center text-black text-right text-lg leading-7 tracking-normal uppercase whitespace-nowrap">
+                <div className="justify-center text-black text-right text-lg leading-7 tracking-normal uppercase whitespace-nowrap ">
+                  95 %
+                </div>
+                <div className="justify-center text-black text-lg leading-7 tracking-normal uppercase whitespace-nowrap mt-5">
                   95 %
                 </div>
                 <div className="justify-center text-black text-lg leading-7 tracking-normal uppercase whitespace-nowrap mt-6">
-                  95 %
-                </div>
-                <div className="justify-center text-black text-lg leading-7 tracking-normal uppercase whitespace-nowrap mt-7">
                   95 %
                 </div>
               </span>

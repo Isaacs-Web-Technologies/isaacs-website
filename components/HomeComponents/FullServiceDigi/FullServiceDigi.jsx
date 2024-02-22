@@ -36,11 +36,11 @@ const FullServiceDigi = () => {
               />
             </div>
             <h2 className="text-neutral-700 text-center text-xl font-bold leading-8 self-center whitespace-nowrap mt-14 max-md:mt-10">
-              Significant ROI
+            Organic Long Term SEO
             </h2>
             <div className="text-black text-center text-base leading-6 self-stretch mt-5">
-              Description Lorem ipsum dolor sit <br /> amet, consectetur adipiscing
-              elit. <br /> Aliquam in placerat elit, consequat <br /> tristique
+            Propel your website to the top of search  <br /> engine results and keep it there with our organic,
+             <br /> long-term SEO approach, ensuring sustained  <br /> visibility, credibility, and growth for your  <br />  online presence.
             </div>
             <button
           className="digiButton text-center mt-6 text-white text-xl font-bold leading-8
@@ -70,13 +70,11 @@ const FullServiceDigi = () => {
               />
               </div>
               <h2 className="text-neutral-700 text-center text-xl font-bold leading-8 self-center whitespace-nowrap mt-14 max-md:mt-10">
-                Significant ROI
+              AI Chatbot Integration
               </h2>
               <div className="text-black text-center text-base leading-6 self-stretch mt-5">
-                Description Lorem ipsum dolor sit <br /> amet, consectetur
-                adipiscing elit. <br /> Aliquam in placerat elit, consequat{" "}
-                <br />
-                tristique
+              Delight your customers and streamline  <br /> your operations with our AI chatbot  integration<br /> services, offering personalized and responsive <br /> assistance 24/7
+            enhancing customer     <br />  satisfaction and loyalty.
               </div>
               <button className="text-center mt-6 text-white text-xl font-bold leading-8
               bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)]
@@ -104,13 +102,12 @@ const FullServiceDigi = () => {
               />
               </div>
               <h2 className="text-neutral-700 text-center text-xl font-bold leading-8 self-center whitespace-nowrap mt-14 max-md:mt-10">
-                Significant ROI
+              Payment Gateway Integration
               </h2>
               <div className="text-black text-center text-base leading-6 self-stretch mt-5">
-                Description Lorem ipsum dolor sit <br /> amet, consectetur
-                adipiscing elit. <br /> Aliquam in placerat elit, consequat{" "}
+              Simplify the payment process and enhance <br /> customer convenience with our seamless payment <br />  gateway integration solutions, ensuring   secure 
                 <br />
-                tristique
+              transactions and a frictionless checkout  <br /> experience for your users.
               </div>
               <button className="text-center mt-6 text-white text-xl font-bold leading-8
             bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)]

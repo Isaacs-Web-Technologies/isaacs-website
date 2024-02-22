@@ -31,12 +31,15 @@ const Afrowithphone=()=> {
             <div className="text-black text-lg font-bold leading-7 tracking-normal uppercase self-stretch mt-16 max-md:max-w-full max-md:mt-10">
               Boosts Your Website Traffic!
             </div>
-            <div className="text-black text-lg leading-7 tracking-normal uppercase self-stretch mt-14 max-md:max-w-full max-md:mt-10">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras{" "}
-              <br /> bibendum auctor justo, ac bibendum neque sollicitudin ac.{" "}
-              <br /> Duis feugiat non urna nec tincidunt. Sed nec est eget sem{" "}
-              <br /> sodales ultricies vitae a elit. Donec velit massa <br />{" "}
-              dapibus eu facilisis eu.
+            <div className="text-black text-lg leading-7 tracking-normal self-stretch mt-14 max-md:max-w-full max-md:mt-10">
+            Hey there! Why choose us?   <br />   
+          <br />  Because we’re your friendly neighborhood problem solvers
+           here to 
+          make your life easier and your day brighter. 
+           <br />  <br />  No fancy jargon, just real people with a passion for helping you succeed.
+           <br /> <br />  We’re like your favorite playlist – upbeat, energizing, and guaranteed to put a smile on your face.
+           <br /> <br />So why wait? 
+            <br />Join the fun and let’s make magic happen together!
             </div>
             <button className="items-stretch shadow-sm bg-[linear-gradient(269deg,#AD00FF_0%,#BA56F7_50%,#AD00FF_100%)] flex w-[219px] max-w-full flex-col justify-center mt-8 px-10 py-4 rounded-3xl self-start max-md:px-5">
               <span className="justify-between items-stretch flex gap-3 px-0.5">

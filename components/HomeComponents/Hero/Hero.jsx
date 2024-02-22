@@ -40,11 +40,17 @@ const Hero=()=> {
                 <div className="justify-center h-[100px] md:h-[80px] sm:h-[25px]  text-black text-5xl font-bold leading-12 capitalize self-stretch mt-10 mb-5 py-auto md:mb-auto sm:mb-auto max-md:text-4xl max-md:leading-10 max-md:mt-10">
                    <TypeAnimation
                     sequence={[
-                      `Search Engine\nOptimization.`,
+                      `Seamless \nWeb Design.`,
+                      1000,
+                      `UI/UX\tReview.`,
                       1000,
                       `Social Media\tMarketing.`,
                       1000,
-                      `Organic Long\tTerm-SEO.`,
+                      `Organic Long\tTerm Seo.`,
+                      1000,
+                      `AI Chatbot\tIntegration.`,
+                      1000,
+                      `Payment Gateway\tIntegration.`,
                       1000,
                     ]}
                     speed={50}

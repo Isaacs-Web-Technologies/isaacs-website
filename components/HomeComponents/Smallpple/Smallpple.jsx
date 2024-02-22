@@ -32,17 +32,18 @@ return (
         <div ref={rightColumnRef} className=" flex flex-col items-stretch w-[52%] ml-5 max-md:w-full max-md:ml-0">
           <header className="flex flex-col mt-4 max-md:max-w-full max-md:mt-10">
             <h2 className="text-teal-500 text-lg font-bold leading-7 tracking-normal uppercase self-stretch max-md:max-w-full">
-              Grow Traffic & Increase Revenuezzzzz
+              Grow Traffic & Increase Revenue
             </h2>
             <h3 className="text-black text-lg font-bold leading-7 tracking-normal uppercase self-stretch mt-16 max-md:max-w-full max-md:mt-10">
               Appear On the Front Page of Google!
             </h3>
-            <p className="text-black text-lg leading-7 tracking-normal uppercase self-stretch mt-14 max-md:max-w-full max-md:mt-10">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras{" "}
-              <br /> bibendum auctor justo, ac bibendum neque sollicitudin ac.{" "}
-              <br /> Duis feugiat non urna nec tincidunt. Sed nec est eget sem{" "}
-              <br /> sodales ultricies vitae a elit. Donec velit massa <br />,
-              dapibus eu facilisis eu.
+            <p className="text-black text-lg leading-7 tracking-normal self-stretch mt-14 max-md:max-w-full max-md:mt-10">
+            Harness the power of SEO to propel your business to new heights!<br /> <br />With 
+           strategic optimization, your website gains visibility, credibility,
+               and authority,  attracting qualified leads and boosting conversions. <br />
+              <br /> SEO isn’t just about ranking higher – it’s about understanding your 
+              audience and tailoring your offerings to their needs.
+              <br /><br /> Plus, it’s a long-term strategy with enduring rewards, delivering sustainable growth for your business.<br /> <br />Ready to unlock your business’s full potential? <br />Start with SEO today.
             </p>
             <a href= "/About">
             <button
