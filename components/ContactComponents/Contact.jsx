@@ -51,7 +51,7 @@ const Contact =()=> {
                   +66 789 12345 */}
                   <br />
                   <h5 className="leading-[160%] mt-4 max-md:max-w-full">Email:</h5>
-                  isaacswebtechnologies@gmail.com
+                  info.isaacswebtechnologies@gmail.com
                   <br />
                   {/* <h5 className="leading-[160%] mt-4 max-md:max-w-full">Address:</h5>
                   123 Street, City */}
