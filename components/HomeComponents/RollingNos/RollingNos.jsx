@@ -62,12 +62,11 @@ const RollinNos =()=> {
               href="#"
               className="text-white text-sm font-black leading-3 justify-center items-stretch bg-teal-400 w-auto grow basis-auto px-1.5 py-5 rounded-3xl"
             >
-              <span className="text-xl">150+</span> <br />
-              <span className="text-xs">CLIENTS</span>
+              <span className="text-xl">300%</span> <br />
+              <span className="text-xs">BOOST</span>
             </a>
             <div className="text-black text-base leading-6 grow shrink basis-auto md:text-center">
-              Description Lorem ipsum dolor sit <br /> amet, consectetur
-              adipiscing elit. <br /> Aliquam .
+            Achieving a 300% boost in website traffic for our clients within the first six months
             </div>
           </div>
           {/* 2 */}
@@ -79,12 +78,11 @@ const RollinNos =()=> {
               href="#"
               className="text-white text-sm font-black leading-3 justify-center items-stretch bg-teal-400 w-auto grow basis-auto px-1.5 py-5 rounded-3xl"
             >
-              <span className="text-xl">150+</span> <br />
-              <span className="text-xs">CLIENTS</span>
+              <span className="text-xl">250%</span> <br />
+              <span className="text-xs">RISE</span>
             </a>
             <div className="text-black text-base leading-6 grow shrink basis-auto md:text-center">
-              Description Lorem ipsum dolor sit <br /> amet, consectetur
-              adipiscing elit. <br /> Aliquam .
+            Enhanced customer engagement, with a 250% rise in social media interactions
             </div>
           </div>
           {/* 3 */}
@@ -96,12 +94,11 @@ const RollinNos =()=> {
               href="#"
               className="text-white text-sm font-black leading-3 justify-center items-stretch bg-teal-400 w-auto grow basis-auto px-1.5 py-5 rounded-3xl"
             >
-              <span className="text-xl">150+</span> <br />
-              <span className="text-xs">CLIENTS</span>
+              <span className="text-xl">150%</span> <br />
+              <span className="text-xs">SALES</span>
             </a>
             <div className="text-black text-base leading-6 grow shrink basis-auto md:text-center">
-              Description Lorem ipsum dolor sit <br /> amet, consectetur
-              adipiscing elit. <br /> Aliquam .
+            Elevated sales conversions by 150%, driving revenue and business growth
             </div>
           </div>
         </div>

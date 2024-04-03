@@ -10,6 +10,7 @@ import Afrowithphone from '../components/HomeComponents/Afrowithphone/Afrowithph
 import Hero from '../components/HomeComponents/Hero/Hero'
 import RollinNos from '../components/HomeComponents/RollingNos/RollingNos'
 import CarouselComponent from '../components/HomeComponents/CaseStudies/CarouselComponent'
+import Txt from '../components/HomeComponents/CaseStudies/txt'
 
 
 
@@ -24,7 +25,8 @@ export default function Home() {
     <RollinNos />
     <Awesome />
     <Afrowithphone />
-    <CarouselComponent />
+    <Txt />
+    {/* <CarouselComponent /> */}
     <HContact />
     <Purpleseo/>
 

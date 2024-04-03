@@ -37,12 +37,12 @@ const StandingDigi=()=> {
                     role="img"
                   />
                   <h2 className="text-neutral-700 text-center text-lg font-bold leading-7 whitespace-nowrap mr-4 self-end max-md:mr-2.5">
-                    Awesome Results
+                    Web Design Magic
                   </h2>
                   <p className="text-black text-sm leading-5 self-stretch mt-3">
-                    Description Lorem ipsum dolor sit <br /> amet, consectetur
-                    adipiscing elit. <br /> Aliquam in placerat elit, consequat{" "}
-                    <br /> tristique
+                  Transform your online presence into a digital masterpiece! Our custom web
+                    designs captivate and convert,  establishing your brand’s dominance{" "}
+                   
                   </p>
                 </div>
               </div>
@@ -55,12 +55,12 @@ const StandingDigi=()=> {
                     role="img"
                   />
                   <h2 className="text-neutral-700 text-center text-lg font-bold leading-7 whitespace-nowrap mr-4 self-end max-md:mr-2.5">
-                    Awesome Results
+                    Social Media Wizardry
                   </h2>
                   <p className="text-black text-sm leading-5 self-stretch mt-3.5">
-                    Description Lorem ipsum dolor sit <br /> amet, consectetur
-                    adipiscing elit. <br /> Aliquam in placerat elit, consequat{" "}
-                    <br /> tristique
+                  Become the talk of the town! 
+                  Our social media strategies turn engagement into love,
+                  building a community of brand advocates.
                   </p>
                 </div>
               </div>
@@ -77,12 +77,11 @@ const StandingDigi=()=> {
                     role="img"
                   />
                   <h2 className="text-neutral-700 text-center text-lg font-bold leading-7 whitespace-nowrap mr-4 self-end max-md:mr-2.5">
-                    Awesome Results
+                    SEO Mastery
                   </h2>
                   <p className="text-black text-sm leading-5 self-stretch mt-3.5">
-                    Description Lorem ipsum dolor sit <br /> amet, consectetur
-                    adipiscing elit. <br /> Aliquam in placerat elit, consequat{" "}
-                    <br /> tristique
+                  Elevate to page one dominance! Our SEO mastery ensures your 
+                  business is seen, heard, and celebrated
                   </p>
                 </div>
               </div>
@@ -95,12 +94,12 @@ const StandingDigi=()=> {
                     role="img"
                   />
                   <h2 className="text-neutral-700 text-center text-lg font-bold leading-7 whitespace-nowrap mr-4 self-end max-md:mr-2.5">
-                    Awesome Results
+                    Chatbot Heroes
                   </h2>
                   <p className="text-black text-sm leading-5 self-stretch mt-3.5">
-                    Description Lorem ipsum dolor sit <br /> amet, consectetur
-                    adipiscing elit. <br /> Aliquam in placerat elit, consequat{" "}
-                    <br /> tristique
+                  Experience support like never before!
+                   Our AI chatbots provide 24/7 assistance, 
+                   keeping your customers engaged and satisfied.
                   </p>
                 </div>
               </div>

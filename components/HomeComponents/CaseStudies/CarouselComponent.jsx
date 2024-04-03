@@ -69,13 +69,18 @@ const CarouselComponent = () => {
           {/* Image */}
           <img
             loading="lazy"
-            src="/img/issearchengine.jpg"
+            src="/img/retail.jpg"
             className=" object-cover object-center w-full shrink-0 box-border min-h-[120px] min-w-[120px] overflow-hidden mt-5"
             alt="Image 1"
           />
           {/* Text */}
           <div className="relative box-border h-auto mt-5">
-            Enter some text...
+            Revolutionalized E-commerce
+          </div>
+          <div>
+          A Fashion E-Commerce’s Journey to a 50% Sales Increase”
+         Discover how our innovative web design and targeted 
+          SEO strategies doubled visitor traffic and skyrocketed online sales for a fashion retailer.
           </div>
         </div>
       </div>
