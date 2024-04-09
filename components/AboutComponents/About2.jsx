@@ -56,7 +56,7 @@ const About2 = () => {
      
           <div className="max-w-full justify-center relative w-[1140px] mx-auto px-3 py-6 max-md:pl-5">
           <div className="text-teal-500 text-sm leading-7 uppercase max-md:max-w-full">
-                WHAT WE DO
+                WHAT DO WE DO?
         </div>
         <h1 className="text-neutral-700 text-3xl leading-10 mt-6 max-md:max-w-full">
                 Fresh Ideas for Every Business
@@ -79,25 +79,25 @@ const About2 = () => {
                 {/* description of progress bar */}
                 <div className="flex flex-col mt-10 w-[72%] items-stretch max-md:mt-10">
                   <h2 className="text-neutral-700 text-xl leading-8">
-                    Creative Approach
+                  Innovative Solutions
                   </h2>
                   <p className="text-gray-500 text-base leading-6 mt-3">
-                    Ea pro tibique comprehensam, sed ea verear numquam
-                    molestie. Nam te omittam comprehensam.
+                  Charting the uncharted in digital innovation, we deliver solutions that defy convention. Our creative prowess translates into a 92% success 
+                  rate for businesses seeking transformative strategies.
                   </p>
                   <h2 className="text-neutral-700 text-xl leading-8 mt-11 max-md:mt-10">
-                    Creative Approach
+                  Tailored Tactics
                   </h2>
                   <p className="text-gray-500 text-base leading-6 mt-3">
-                    Ea pro tibique comprehensam, sed ea verear numquam
-                    molestie. Nam te omittam comprehensam.
+                  Customization is at the core of our tactics, resulting in 76% of our campaigns outperforming industry benchmarks. We tune into your 
+                  unique frequency to hit the sweet spot of innovation
                   </p>
                   <h2 className="text-neutral-700 text-xl leading-8 mt-12 max-md:mt-10">
-                    Creative Approach
+                  Strategic Mastery
                   </h2>
                   <p className="text-gray-500 text-base leading-6 mt-3.5">
-                    Ea pro tibique comprehensam, sed ea verear numquam
-                    molestie. Nam te omittam comprehensam.
+                  With 80% of our projects setting new industry standards, our strategic mastery ensures your business 
+                  not only meets but exceeds its digital aspirations
                   </p>
                 </div>
               </div>

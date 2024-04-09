@@ -34,8 +34,8 @@ const  ServicesGrid=()=> {
                 Social Media Strategy
               </h4>
               <p className="text-gray-500 text-center text-base leading-6 mt-3">
-                Proin hendrerit vestibulum ipsum non malesuada. Nunc ut sem
-                cursus nisl tincidunt dictum et vel eros.
+              Navigate the social landscape with our expert strategy tailored to amplify your brand’s voice. Engage your audience, spark meaningful conversations, and convert followers into
+               fans with our innovative campaigns designed for impact.
               </p>
             </span>
           </div>
@@ -50,8 +50,8 @@ const  ServicesGrid=()=> {
                 Online Analysis
               </div>
               <div className="text-gray-500 text-center text-base leading-6 mt-2">
-                Suspendisse mattis est vitae purus imperdiet vestibulum. Nunc
-                ornare ligula vel diam porttitor.
+              Unlock the power of data with our comprehensive online analysis. Dive deep into metrics that matter and emerge with actionable insights to outpace the competition. Optimize your digital 
+              presence with strategies informed by real-time analytics
               </div>
             </span>
           </div>
@@ -66,8 +66,8 @@ const  ServicesGrid=()=> {
                 Web Development
               </div>
               <div className="text-gray-500 text-center text-base leading-6 mt-4">
-                Sed in augue tristique, consectetur urna at, blandit ex. In
-                libero massa, facilisis eget dolor in, volutpat cursus elit.
+              Bring your digital vision to life with our expert web development services. From responsive design to custom features, we build websites that perform flawlessly on all devices, crafted 
+              to engage your audience and elevate your online presence.
               </div>
             </span>
           </div>
@@ -86,8 +86,8 @@ const  ServicesGrid=()=> {
                 SEO Marketing
               </div>
               <div className="text-gray-500 text-center text-base leading-6 mt-3">
-                Sed in augue tristique, consectetur urna at, blandit ex. In
-                libero massa, facilisis eget dolor in, volutpat cursus elit.
+              Gain visibility where it counts with our strategic SEO marketing. We focus on driving your website to the top of search rankings, connecting you with your target audience through optimized content and cutting-edge
+              techniques to increase organic traffic and conversions
               </div>
             </span>
           </div>
@@ -99,11 +99,11 @@ const  ServicesGrid=()=> {
                 className="aspect-[1.25] object-contain object-center w-[104px] overflow-hidden self-center max-w-full"
               />
               <div className="text-neutral-700 text-center text-base leading-7 tracking-wide self-center whitespace-nowrap mt-2.5">
-                Search Optimization
+                Payment Gateway Integration
               </div>
               <div className="text-gray-500 text-center text-base leading-6 mt-2.5">
-                Proin hendrerit vestibulum ipsum non malesuada. Nunc ut sem
-                cursus nisl tincidunt dictum et vel eros.
+              Seamlessly empower your online transactions with our secure payment gateway integration services. Offering a smooth checkout experience, we ensure reliability and flexibility for your customers, supporting a wide range of payment methods to
+               boost your sales and streamline your financial processes.
               </div>
             </span>
           </div>
@@ -115,11 +115,11 @@ const  ServicesGrid=()=> {
                 className="aspect-[1.26] object-contain object-center w-[106px] overflow-hidden self-center max-w-full"
               />
               <div className="text-neutral-700 text-center text-base leading-7 tracking-wide self-center whitespace-nowrap mt-4">
-                Social Media Marketing
+                AI Chatbot Integration
               </div>
               <div className="text-gray-500 text-center text-base leading-6 mt-4">
-                Suspendisse mattis est vitae purus imperdiet vestibulum. Nunc
-                ornare ligula vel diam porttitor.
+              Revolutionize customer interaction with our AI chatbot integration. Available 24/7, our smart chatbots provide instant, accurate responses to customer inquiries, enhancing user experience, reducing wait times, and
+               freeing up your staff to focus on growing your business
               </div>
             </span>
           </div>
@@ -135,11 +135,11 @@ const  ServicesGrid=()=> {
                 className="aspect-[1.25] object-contain object-center w-[105px] overflow-hidden self-center max-w-full"
               />
               <div className="text-neutral-700 text-center text-base leading-7 tracking-wide self-center whitespace-nowrap mt-2.5">
-                Reporting & Analysis
+                Media Promotion
               </div>
               <div className="text-gray-500 text-center text-base leading-6 mt-2.5">
-                Suspendisse mattis est vitae purus imperdiet vestibulum. Nunc
-                ornare ligula vel diam porttitor.
+              Make your brand the center of attention with our strategic media promotion services. We craft compelling narratives that resonate with your target audience, deploying them across the perfect mix of platforms 
+              to amplify your message and elevate your brand’s profile.
               </div>
             </span>
           </div>
@@ -151,11 +151,11 @@ const  ServicesGrid=()=> {
                 className="aspect-[1.22] object-contain object-center w-[105px] overflow-hidden self-center max-w-full mt-2"
               />
               <div className="text-neutral-700 text-center text-base leading-7 tracking-wide self-center whitespace-nowrap">
-                Media Promotion
+                Email Marketing
               </div>
               <div className="text-gray-500 text-center text-base leading-6 mb-2">
-                Proin hendrerit vestibulum ipsum non malesuada. Nunc ut sem
-                cursus nisl tincidunt dictum et vel eros.
+              Connect with your customers where it matters most — their inbox. Our email marketing campaigns combine persuasive content with stunning design to grab attention, boost open rates, and 
+              foster enduring customer relationships that drive sales
               </div>
             </span>
           </div>
@@ -167,11 +167,11 @@ const  ServicesGrid=()=> {
                 className="aspect-[1.19] object-contain object-center w-[105px] overflow-hidden self-center max-w-full"
               />
               <div className="text-neutral-700 text-center text-base leading-7 tracking-wide self-center whitespace-nowrap mt-3">
-                Email Marketing
+                Comprehensive UI/Ux
               </div>
               <div className="text-gray-500 text-center text-base leading-6 mt-3">
-                Sed in augue tristique, consectetur urna at, blandit ex. In
-                libero massa, facilisis eget dolor in, volutpat cursus elit.
+              We will do a very extensive User interface analysis for your product and we will also at a very cost effective price, 
+              conduct a user experience test for your application
               </div>
             </span>
           </div>

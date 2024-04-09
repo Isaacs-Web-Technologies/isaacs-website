@@ -26,18 +26,19 @@ const Meeting=()=> {
                 Get Started
               </h2>
               <h1 className="text-neutral-700 text-3xl leading-10 self-stretch mt-16 max-md:max-w-full max-md:mt-10">
-                We Like to Start Your
+              Let’s get the digital
               </h1>
               <h1 className="text-neutral-700 text-3xl leading-10 self-stretch mt-4 max-md:max-w-full">
-                Project With Us
+              party started!
               </h1>
               <p className="text-gray-500 text-base leading-6 self-stretch max-md:max-w-full">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum auctor justo, ac bibendum neque sollicitudin ac.
+              Isaacs Web Technologies is where ideas become brilliant realities.
+               Got a project? We’ve got the flair to match. Click and kick off a collaboration that spells success.
               </p>
               <div className="items-stretch shadow-sm bg-[linear-gradient(269deg,#8F00FF_0%,#C356F7_50%,#7000FF_100%)] flex w-[218px] max-w-full flex-col justify-center mt-28 px-10 py-4 rounded-3xl self-start max-md:mt-10 max-md:px-5">
                 <span className="justify-between items-stretch flex gap-3 px-0.5">
-                  <a href="#" className="text-white text-center text-base font-bold leading-5 capitalize grow whitespace-nowrap">
-                    More About us
+                  <a href="/Contact" className="text-white text-center text-base font-bold leading-5 capitalize grow whitespace-nowrap">
+                    Contact Us
                   </a>
                   <div className="text-white text-center text-base font-black leading-4 capitalize self-center whitespace-nowrap my-auto"></div>
                 </span>

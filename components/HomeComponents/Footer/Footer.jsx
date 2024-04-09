@@ -32,7 +32,7 @@ const Footer=()=> {
             <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
               <div className="flex flex-col items-stretch w-3/12 max-md:w-full max-md:ml-0">
                 <div className="text-teal-500 text-lg font-bold leading-7 tracking-normal uppercase self-stretch">
-                  Get free quote for
+                Got goals?
                 </div>
                 <span className="self-stretch flex grow flex-col pr-10 pt-5 pb-12 items-start max-md:pr-5">
                   < img
@@ -41,8 +41,8 @@ const Footer=()=> {
                     className="aspect-[0.99] object-contain object-center w-[75px] overflow-hidden max-w-full"
                   />
                   <div className="text-neutral-700 text-base leading-6 self-stretch mt-11 mb-2.5 max-md:mt-10">
-                    Digo have much planned for the <br /> future, working with
-                    great clients and <br /> continued software development.
+                   We’ve got game.
+                   Hit us up for a free quote and let’s chat about your next big move in the digital world. 
                   </div>
                 </span>
               </div>
@@ -89,10 +89,10 @@ const Footer=()=> {
                     SEO Services
                   </div>
                   <div className="text-neutral-700 text-base leading-8 whitespace-nowrap self-start">
-                    Pay Per Click
+                    Payment Gateway
                   </div>
                   <div className="text-neutral-700 text-base leading-8 whitespace-nowrap self-start">
-                    Social Media
+                    AI Chatbot Integration
                   </div>
                 </span>
               </div>
@@ -108,7 +108,7 @@ const Footer=()=> {
                     SEO Services
                   </div>
                   <div className="text-neutral-700 text-base leading-8 whitespace-nowrap self-start">
-                    Pay Per Click
+                    Media Promotion
                   </div>
                   <div className="text-neutral-700 text-base leading-8 whitespace-nowrap self-start">
                     Social Media
@@ -119,7 +119,7 @@ const Footer=()=> {
           </div>
         </span>
         <div className="relative text-neutral-700 text-base leading-6 capitalize grow shrink basis-auto">
-          Copyright © 2023 Digo by Abdus - All Rights Reserved
+          Copyright © 2024 by Isaac's Web Technologies - All Rights Reserved
         </div>
       </div>
     </div>

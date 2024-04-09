@@ -28,7 +28,6 @@ export default function Home() {
     {/* <CarouselComponent /> */}
     <HContact />
     <Purpleseo/>
-
     </>
    
   )

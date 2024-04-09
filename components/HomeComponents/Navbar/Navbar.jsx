@@ -33,8 +33,8 @@ const Navbar =()=> {
                   <a className="relative" href="/">
                     Home
                   </a>
-                  <a className="" href="/Services">
-                    Services
+                  <a className="" href="/Solutions">
+                    Solutions
                     <br />
                     <br />
                   </a>
@@ -94,8 +94,8 @@ const Navbar =()=> {
          </Link>
           </li>
           <li onClick={handleHamburgerClick} className="py-5 ">
-         <Link className = "text-white no-underline hover:text-purple-700 cursor-pointer" href= "/Services">
-         Services
+         <Link className = "text-white no-underline hover:text-purple-700 cursor-pointer" href= "/Solutions">
+         Solutions
          </Link>
           </li>
           <li onClick={handleHamburgerClick} className="py-5 ">
