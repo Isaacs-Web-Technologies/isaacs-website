@@ -34,10 +34,10 @@ const Hero=()=> {
             <div className="gap-5 flex max-md:flex-col-reverse max-md:items-stretch max-md:gap-0">
               {/* left column */}
               <div className="flex flex-col items-stretch w-[45%] max-md:w-full max-md:ml-0" ref={leftColumnRef}>
-                <div className="text-teal-500 text-lg font-bold leading-7 tracking-normal uppercase self-stretch">
+                <div className="text-teal-500 text-lg font-bold leading-7 tracking-normal max-sm:mt-3 uppercase self-stretch">
                   Get free quote for
                 </div>
-                <div className="justify-center h-[100px] md:h-[80px] sm:h-[25px]  text-black text-5xl font-bold leading-12 capitalize self-stretch mt-10 mb-5 py-auto md:mb-auto sm:mb-auto max-md:text-4xl max-md:leading-10 max-md:mt-10">
+                <div className="justify-center h-[100px] md:h-[75px] sm:h-[25px]  text-black text-5xl font-bold leading-12 capitalize self-stretch lg:mt-10 max-md:mt-2 max-md:mb-10  py-auto md:mb-auto max-sm:mb-1 max-md:text-4xl max-md:leading-7.5 ">
                    <TypeAnimation
                     sequence={[
                       `Seamless \nWeb Design.`,

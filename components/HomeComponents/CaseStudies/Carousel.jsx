@@ -7,37 +7,37 @@ const Carousel = () => {
       imgSrc: '/img/retail.jpg',
       title: 'Revolutionized E-commerce',
       excerpt: 'Discover how our innovative web design and targeted SEO strategies doubled visitor traffic and skyrocketed online sales for a fashion retailer.',
-      readMoreUrl: 'https://example.com/page1',
+      readMoreUrl: '#',
     },
     {
       imgSrc: '/img/B2B.jpg',
       title: 'B2B Lead Generation',
       excerpt: ' Find out how we revamped a SaaS company’s website and lead-gen strategy to triple their qualified leads in just six months.',
-      readMoreUrl: 'https://example.com/page2',
+      readMoreUrl: '#',
     },
     {
       imgSrc: '/img/health.jpg',
       title: 'Healthcare on The Web',
       excerpt: 'Read about the custom-developed patient management system and user-friendly website interface that increased patient engagement by over 200%.',
-      readMoreUrl: 'https://example.com/page3',
+      readMoreUrl: '#',
     },
     {
       imgSrc: '/img/Education.jpg',
       title: 'Education Reimagined',
       excerpt: 'A look into how our e-learning solutions and SEO-optimized content increased user enrollments and course completion rates for an online education platform.',
-      readMoreUrl: 'https://example.com/page4',
+      readMoreUrl: '#',
     },
     {
       imgSrc: '/img/startup.jpg',
       title: 'Startup Ecosystems',
       excerpt: ' See how our full-spectrum digital marketing campaign helped a tech startup become a market leader, featuring a 300% user base growth.',
-      readMoreUrl: 'https://example.com/page5',
+      readMoreUrl: '#',
     },
     {
       imgSrc: '/img/global.jpg',
       title: 'Local to Global',
       excerpt: ' Learn about our comprehensive branding and social media approach that transformed a local craftsman’s shop into a globally recognized brand.',
-      readMoreUrl: 'https://example.com/page5',
+      readMoreUrl: '#',
     },
   ];
 
