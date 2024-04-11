@@ -5,7 +5,7 @@
 }
 
 .icon-style {
-  background-color: #9f299d;
+  background: linear-gradient(269deg, #AD00FF 0%, #BA56F7 50%, #AD00FF 100%);
   border: 2px solid #fff;
   border-radius: 50%;
   height: 50px;

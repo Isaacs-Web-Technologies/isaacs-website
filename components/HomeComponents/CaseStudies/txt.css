@@ -14,7 +14,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(269deg, #AD00FF 0%, #BA56F7 50%, #AD00FF 100%);
   color: white;
   border: none;
   cursor: pointer;
