@@ -41,35 +41,38 @@ const Carousel = () => {
     },
   ];
 
-
+  const totalItems = carouselItems.length;
+  const [currentIndex, setCurrentIndex] = useState(0);
   const slideRef = useRef(null);
   const autoScrollRef = useRef(null);
   const [isUserInteracting, setIsUserInteracting] = useState(false);
 
-  // Start auto-scroll
-  const startAutoScroll = () => {
-    // Check if user is interacting with the carousel to prevent auto-scroll
-    if (!isUserInteracting && slideRef.current) {
-      const scrollAmount = slideRef.current.offsetWidth; // Consider adjusting based on your layout
-      slideRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+  const updateIndex = (newIndex) => {
+    if (newIndex < 0) {
+      setCurrentIndex(totalItems - 1); // Wrap to the last item if going backwards from the first item
+    } else if (newIndex >= totalItems) {
+      setCurrentIndex(0); // Wrap to the first item if going forwards from the last item
+    } else {
+      setCurrentIndex(newIndex);
     }
   };
 
-  // Initialize automatic scrolling
-  useEffect(() => {
-    autoScrollRef.current = setInterval(startAutoScroll, 3000); // Auto-scroll every 3 seconds
 
-    // Clean up on component unmount
-    return () => clearInterval(autoScrollRef.current);
-  }, [isUserInteracting]);
+  /// Adjusted startAutoScroll to update index
+  const startAutoScroll = () => {
+    if (!isUserInteracting) {
+      updateIndex(currentIndex + 1);
+    }
+  };
 
-  // Manual scroll function adjusts based on direction and pauses auto-scroll
+  // Adjusted manualScroll to update index based on direction
   const manualScroll = (direction) => {
     clearInterval(autoScrollRef.current); // Stop auto-scroll when manually navigating
     setIsUserInteracting(true);
 
-    const scrollAmount = direction === 'left' ? -slideRef.current.offsetWidth : slideRef.current.offsetWidth;
-    slideRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+
+  const newIndex = direction === 'left' ? currentIndex - 1 : currentIndex + 1;
+    updateIndex(newIndex);
 
     // Optional: Resume auto-scroll after a delay
     setTimeout(() => {
@@ -78,18 +81,25 @@ const Carousel = () => {
     }, 5000); // Wait a bit before resuming auto-scroll to give users control
   };
 
+  // Initialize automatic scrolling
+  useEffect(() => {
+    autoScrollRef.current = setInterval(startAutoScroll, 3000); // Auto-scroll every 3 seconds
+
+    // Clean up on component unmount
+    return () => clearInterval(autoScrollRef.current);
+  }, [currentIndex, isUserInteracting]); // Ensure effect dependencies are correct
+  
   return (
     <div className="carousel-container">
       <button className="carousel-nav left" onClick={() => manualScroll('left')}>❮</button>
       <div className="carousel-slide" ref={slideRef}>
-        {carouselItems.map((item, index) => (
-          <div className="carousel-card" key={index}>
-            <img src={item.imgSrc} alt={item.title} className="carousel-image" />
-            <h3 className="carousel-title">{item.title}</h3>
-            <p className="carousel-excerpt">{item.excerpt}</p>
-            <a href={item.readMoreUrl} target="_blank" rel="noopener noreferrer" className="read-more-btn">Read More</a>
-          </div>
-        ))}
+        {/* Adjust rendering to only display the current item */}
+        <div className="carousel-card">
+          <img src={carouselItems[currentIndex].imgSrc} alt={carouselItems[currentIndex].title} className="carousel-image" />
+          <h3 className="carousel-title">{carouselItems[currentIndex].title}</h3>
+          <p className="carousel-excerpt">{carouselItems[currentIndex].excerpt}</p>
+          <a href={carouselItems[currentIndex].readMoreUrl} target="_blank" rel="noopener noreferrer" className="read-more-btn">Read More</a>
+        </div>
       </div>
       <button className="carousel-nav right" onClick={() => manualScroll('right')}>❯</button>
     </div>

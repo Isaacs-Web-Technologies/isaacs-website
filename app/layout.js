@@ -18,8 +18,9 @@ export default function RootLayout({ children }) {
       <div className='bg-backgroundColor'>
         <Navbar />
         {children}
-        <BackToTopButton />
         <Footer />
+        <BackToTopButton />
+       
         
       </div>
     </body>
