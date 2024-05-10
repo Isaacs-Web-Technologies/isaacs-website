@@ -65,7 +65,7 @@ const RollinNos =()=> {
               <span className="text-xl">300%</span> <br />
               <span className="text-xs">BOOST</span>
             </a>
-            <div className="text-black text-base leading-6 grow shrink basis-auto md:text-center">
+            <div className="text-black p-2 text-base leading-6 grow shrink basis-auto md:text-center">
             Achieving a 300% boost in website traffic for our clients within the first six months
             </div>
           </div>
@@ -81,7 +81,7 @@ const RollinNos =()=> {
               <span className="text-xl">250%</span> <br />
               <span className="text-xs">RISE</span>
             </a>
-            <div className="text-black text-base leading-6 grow shrink basis-auto md:text-center">
+            <div className="text-black p-2 text-base leading-6 grow shrink basis-auto md:text-center">
             Enhanced customer engagement, with a 250% rise in social media interactions
             </div>
           </div>
@@ -97,7 +97,7 @@ const RollinNos =()=> {
               <span className="text-xl">150%</span> <br />
               <span className="text-xs">SALES</span>
             </a>
-            <div className="text-black text-base leading-6 grow shrink basis-auto md:text-center">
+            <div className="text-black p-2 text-base leading-6 grow shrink basis-auto md:text-center">
             Elevated sales conversions by 150%, driving revenue and business growth
             </div>
           </div>
